@@ -1,0 +1,81 @@
+{template 'shequ/_header'}
+	<div class="shanghu select-area-item">
+		<div class="select-area-item select-area-search flex flex-around">
+			<div class="flex flex-start" style="width: 60%;">
+				<img  onclick="getAreaList()" src="../addons/ewei_shopv2/plugin/shequ/static/images/icon5@2x.png" alt="" class="search-icon">
+				<input id="keyword" type="text" placeholder="请输入店铺名称或关键字" class="key-input">
+			</div>
+			<div class="search-btn"  onclick="getAreaList()">
+				<span>搜索</span>
+			</div>
+		</div>
+	</div>
+	
+	<div class="category">
+		<div class="shanghu-category select-area-item">
+			<h2>{$shequInfo['shequname']}</h2>
+			{if $merchs}
+			<div class="header-item">
+				<div class="flex flex-around" id="merchList" style="flex-wrap: wrap;">
+					{loop $merchs $m}
+					<div class="flex-item" style="box-sizing: border-box;">
+						<div class="header-item-list">
+							<a href="{php echo mobileUrl('merch',array('merchid'=>$m['id']))}">
+								<img src="{php echo tomedia($m['logo'])}" width="100%" height="100%" />
+							</a>
+						</div>
+						<p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">{$m['title']}</p>
+					</div>
+					{/loop}
+				</div>
+			</div>
+			{else}
+			<div class="searchempty">
+				<div class="item-list searchempty">
+					<img src="../addons/ewei_shopv2/plugin/shequ/static/images/searchempty.png" >
+					<p>这里空空如也呢</p>
+				</div>
+			</div>
+			{/if}
+		</div>
+	</div>
+	<script>
+	function getAreaList(){
+		let shequid = "{$id}";
+		let keyword = $('#keyword').val();
+		$.post(
+			"{php echo mobileUrl('shequ/ajaxshequmerch')}", 
+			{shequid: shequid,keyword: keyword}, 
+			function (ret) {
+				console.log(ret);
+				var result = ret.result;
+				areaList(result);
+				<!-- page++; -->
+			},'json')
+	}
+	function areaList(obj){
+		let list = obj.list;
+		let str = '';
+		if(list.length>0){
+			$.each(list,function(n,m){
+				str += '<div class="flex-item">';
+				str += '	<div class="header-item-list">';
+				str += '		<a href="{php echo mobileUrl("merch")}&merchid='+m.id+'">';
+				str += '			<img src="'+m.logo+'" width="100%" height="100%" />';
+				str += '		</a>';
+				str += '	</div>';
+				str += '	<p>'+ m.title+'</p>';
+				str += '</div>';
+			});
+		}else{
+			str += '<div class="searchempty">';
+			str += '	<div class="item-list searchempty">';
+			str += '		<img src="../addons/ewei_shopv2/plugin/shequ/static/images/searchempty.png" >';
+			str += '		<p>这里空空如也呢</p>';
+			str += '	</div>';
+			str += '</div>';
+		}
+		$('#merchList').html(str);
+	}
+	</script>
+{template 'shequ/_footer'}

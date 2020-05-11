@@ -1,0 +1,273 @@
+<input type="hidden" class="form-control" name="id" value="{$item['id']}" />
+
+<div class="form-group">
+
+    <label class="col-lg control-label must">选择小区</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <select class="form-control" onchange="getGroups(this)" name="shequid" required>
+			<option value="" selected/>请选择</option>
+            {loop $category $c}
+
+            <option value="{$c['id']}" {if $item['shequid']==$c['id']}selected{/if}>{$c['shequname']}</option>
+
+            {/loop}
+
+        </select>
+
+        {else}
+
+        <div class="form-control-static">
+
+            {loop $category $c}
+
+            {if $item['shequid']==$c['id']}{$c['catename']}{/if}
+
+            {/loop}
+
+        </div>
+
+        {/if}
+
+    </div>
+
+</div>
+<div class="form-group">
+
+    <label class="col-lg control-label must">排序</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <input type="text" class="form-control" name="displayorder" value="{$item['displayorder']}" />
+
+        {else}
+
+        <div class="form-control-static">{$item['displayorder']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label must">选择服务分类</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+		<div class="input-group" id="selectGroup">
+                        <label class="checkbox-inline">
+				<input type="checkbox" name="selectAll" id="selectAll"/>全选
+			</label>
+			{loop $allgroups $s}
+			<label class="checkbox-inline">
+				<input type="checkbox" name="service[]" {if in_array($s['id'],$services)} checked="checked" {/if} value="{$s['id']}"/>{$s['groupname']}
+			</label>
+			{/loop}
+		</div>
+        {else}
+
+        <div class="form-control-static">
+
+            {loop $group $c}
+
+            {if $item['groupid']==$c['id']}{$c['groupname']}{/if}
+
+            {/loop}
+
+        </div>
+
+        {/if}
+
+    </div>
+
+</div>
+<script>
+    $('input[name="selectAll"]').on("click",function(){
+        if($(this).is(':checked')){
+            $('input[name="service[]"]').each(function(){
+                $(this).prop("checked",true);
+            });
+        }else{
+            $('input[name="service[]"]').each(function(){
+                $(this).prop("checked",false);
+            });
+        }
+    });
+</script>
+
+
+<div class="form-group">
+
+    <label class="col-lg control-label must">公告名称</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <input type="text" class="form-control" name="title" value="{$item['title']}" data-rule-required="true"/>
+
+        {else}
+
+        <div class="form-control-static">{$item['title']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+<div class="form-group">
+
+    <label class="col-lg control-label">发布人</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <input type="text" class="form-control" name="author" value="{$item['author']}"/>
+
+        {else}
+
+        <div class="form-control-static">{$item['author']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label">公告简介</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <textarea name="desc" class="form-control textarea">{$item['desc']}</textarea>
+
+        {else}
+
+        <div class="form-control-static">{$item['desc']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label">公告logo</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'shequ.user.edit'}
+
+        {php echo tpl_form_field_image2('logo',$item['logo'],'../addons/ewei_shopv2/static/images/nopic.jpg')}
+
+        <span class="help-block">公告logo 建议尺寸 300 * 300</span>
+
+        {else}
+
+        {if empty($item['logo'])}
+
+        <img src="../addons/ewei_shopv2/static/images/nopic.jpg" onerror="this.src='../addons/ewei_shopv2/static/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+
+        {else}
+
+        <img src="{php echo tomedia($item['logo'])}" onerror="this.src='../addons/ewei_shopv2/static/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+
+        {/if}
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+    <label class="col-lg control-label">公告内容</label>
+    <div class="col-sm-9 col-xs-12">
+        {ifp 'shequ.set.edit'}
+        {php echo tpl_ueditor('item[content]',$item['content'],array('height'=>200))}
+        {else}
+        <textarea id='content' style='display:none'>{$item['content']}</textarea>
+        <a href='javascript:preview_html("#content")' class="btn btn-default">查看内容</a>
+        {/if}
+    </div>
+</div>
+
+
+<div class="form-group-title">公告状态</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label">是否显示</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+
+        <label class="radio-inline">
+
+            <input type="radio" name="status" value="1" {if $item['status']==1}checked{/if} />是
+
+        </label>
+
+        <label class="radio-inline">
+
+            <input type="radio" name="status" value="2" {if $item['status']==2}checked{/if}/> 否
+
+        </label>
+
+        {else}
+
+        <div class="form-control-static">
+
+            {if $item['stauts']==1}
+
+            显示
+
+            {elseif $item['stauts']==2}
+
+            隐藏
+
+            {/if}
+
+        </div>
+
+        {/if}
+
+    </div>
+
+</div>
+<script>
+	function getGroups(obj){
+		let shequid = $(obj).val();
+		let url = "{php echo webUrl('shequ/massage/getGroups')}";
+		$.post(url,{shequid:shequid},function(res){
+			let result = res.result.list;
+			let str='';
+			if(res.status==1){
+				$.each(result,function(m,n){
+					str += '<label class="checkbox-inline">';
+					str += '	<input type="checkbox" name="service[]" value="'+n.id+'" />'+ n.groupname;
+					str += '</label>';
+				})
+			}else{
+				str="<a href='{php echo webUrl('shequ/massage/getGroups') }' />请先设置该社区下的服务分类</a>";
+			}
+			$('#selectGroup').html(str);
+		},'JSON')
+	}
+</script>

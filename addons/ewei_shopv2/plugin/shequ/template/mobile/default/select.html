@@ -1,0 +1,161 @@
+{template 'shequ/_header'}
+<div class="select-area">
+	<div class="select-area-item select-area-header">
+		
+		<div class="select-area-item-desc">
+			{loop $aresList $a}
+			<p>{$a['groupname']}</p><small>{$a['desc']}</small><br/>
+			{/loop}
+		</div>
+	</div>
+	<div class="select-area-item flex flex-around flex-between">
+		<div class="flex flex-start select-area-show">
+			<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon7@2x.png" alt="" class="ditu">
+			<p class="flex flex-cloumn" >
+				<span class="loc-font">您当前所在位置：</span>
+				<label id="addressDetail"></label> 
+			</p>
+		</div>
+		<div class="reload">
+			<input type="button" onclick="window.location.reload();" value="重新获取">
+		</div>
+	</div>
+	<div class="select-area-item select-area-search flex flex-around">
+		<div class="flex flex-start select-area-name">
+			<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon5@2x.png" alt="" class="search-icon">
+			<input id="keyword" type="text" placeholder="请输入小区名称或关键字" class="key-input">
+		</div>
+		<div class="search-btn" onclick="getAreaList(1)">
+			<span>搜索</span>
+		</div>
+	</div>
+	<div style="height: 1rem;background: #eee;margin-top: 2rem;"></div>
+	<div class="item-list" id="areaList">
+						
+	</div>
+</div>
+<input type="hidden" id='page' value='1' />
+<input type="hidden" id='lat' value='0' />
+<input type="hidden" id='lng' value='0' />
+<!-- <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7&s=1"></script> -->
+<script src="https://webapi.amap.com/maps?v=1.4.15&key=4bb7f548d37c962c18eda07176e7ebb6"></script>
+<!-- <script type="text/javascript" src="https://3gimg.qq.com/lightmap/components/geolocation/geolocation.min.js"></script> -->
+
+<script type="text/javascript" src="../addons/ewei_shopv2/static/js/layer/layer.js"></script>
+<script src="../addons/ewei_shopv2/plugin/shequ/static/js/selectArea.js"></script>
+<script type="text/JavaScript">
+	<!-- $(function(){ -->
+		<!-- var geolocation = new qq.maps.Geolocation("436BZ-5GU3U-O7SVR-4CQYR-ZEDZ6-XWFM7", "阿飞空间"); -->
+		<!-- var positionNum = 0; -->
+		<!-- var options = {timeout: 8000}; -->
+		<!-- function showPosition(position) { -->
+			<!-- positionNum ++; -->
+			<!-- alert(JSON.stringify(position, null, 4)); -->
+		<!-- }; -->
+
+		<!-- function showErr() { -->
+			<!-- positionNum ++; -->
+			<!-- alert('失败'); -->
+		<!-- }; -->
+
+		<!-- function showWatchPosition() { -->
+			<!-- alert('1'); -->
+		<!-- }; -->
+
+		<!-- function showClearWatch() { -->
+			<!-- alert('0'); -->
+		<!-- }; -->
+		<!-- geolocation.getLocation(showPosition, showErr, options); -->
+	<!-- }) -->
+	<!-- var geolocation = new BMap.Geolocation(); -->
+	<!-- geolocation.getCurrentPosition(function (r) { -->
+		<!-- var _this = this; -->
+		<!-- if (this.getStatus() == BMAP_STATUS_SUCCESS) { -->
+			<!-- $('#lat').val(r.point.lat); -->
+			<!-- $('#lng').val(r.point.lng); -->
+			<!-- getAreaList(); -->
+		<!-- } -->
+	<!-- }); -->
+	AMap.plugin('AMap.Geolocation', function() {
+		var geolocation = new AMap.Geolocation({
+			// 是否使用高精度定位，默认：true
+			enableHighAccuracy: true,
+			// 设置定位超时时间，默认：无穷大
+			timeout: 10000,
+			// 定位按钮的停靠位置的偏移量，默认：Pixel(10, 20)
+			buttonOffset: new AMap.Pixel(10, 20),
+			//  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+			zoomToAccuracy: true,     
+			//  定位按钮的排放位置,  RB表示右下
+			buttonPosition: 'RB'
+		})
+	
+		geolocation.getCurrentPosition()
+		AMap.event.addListener(geolocation, 'complete', onComplete)
+		AMap.event.addListener(geolocation, 'error', onError)
+	
+		function onComplete (data) {
+			console.log(data.position)
+			<!-- alert(data.position.lat) -->
+			$('#lat').val(data.position.lat);
+			$('#lng').val(data.position.lng);
+			getAreaList();
+		}
+	
+		function onError (data) {
+			console.log(data)
+		}
+	})
+	function getAreaList(issearch=0){
+		let page = issearch==1?1:$('#page').val();
+		let lat = $('#lat').val();
+		let lng = $('#lng').val();
+		let keyword = $('#keyword').val();
+		$.post(
+			"{php echo mobileUrl('shequ/index/ajaxshequuser')}", 
+			{page: page,lat: lat, lng: lng,keyword:keyword}, 
+			function (ret) {
+				console.log(ret);
+				var result = ret.result;
+				$('#addressDetail').html(result.address);
+				areaList(result);
+				<!-- page++; -->
+			},'json')
+	}
+	function areaList(obj){
+		let list = obj.list;
+		let str = '';
+		if(list.length>0){
+			$.each(list,function(n,m){
+				str += '<div onclick="chooseArea(' + m.id + ')" class="select-area-item flex flex-around flex-between item-list-border">';
+				str += '	<div class="flex flex-start" style="margin-left: 7vw;">';
+				str += '		<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon6@2x.png" alt="" class="ditu">';
+				str += '		<p class="flex flex-cloumn" >';
+				str += '			<span class="loc-font font24">' + m.shequname + '</span>';
+				str += '			<label>' + m.address + '</label> ';
+				str += '		</p>';
+				str += '	</div>';
+				str += '	<div class="center">';
+				str += '		<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon4@2x.png" alt="" style="width: 7vw;">';
+				str += '		<p>'+m.distance+'km</p>';
+				str += '	</div>';
+				str += '</div>';
+			});
+			$('#areaList').html(str);
+		}else{
+			str += '<div class="searchempty">';
+			str += '	<div class="item-list searchempty">';
+			str += '		<img src="../addons/ewei_shopv2/plugin/shequ/static/images/searchempty.png" >';
+			str += '		<p>这里空空如也呢</p>';
+			str += '	</div>';
+			str += '</div>';
+			$('#areaList').html(str);
+		}
+	}
+	function chooseArea(id=0){
+		if(id==0){layer.msg('参数异常');return false;}
+		let url = "{php echo mobileUrl('shequ/merchantDistribution')}&areaid="+id;
+		window.location.href=url;
+	}
+</script>
+{template 'shequ/_footer'}

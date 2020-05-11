@@ -1,0 +1,201 @@
+{template 'shequ/_header2'}
+        <div id="publish-wrap" class="fui-page-current">
+		<header class="publish-header">
+			<p>选择反馈类型</p>
+			<div class="flex flex-around publish-type-item" id="publish-type-item">
+                                {loop $board $s}
+                                    <a id="{$s['id']}">{$s['title']}</a>
+                                {/loop}
+			</div>
+		</header>
+                <div style="height: 1vh; background: #eee;"></div>
+                <div class="publish-info">
+			<div class="publish-imgs-box">
+				<label>标题：</label>
+				<input type="text" name="title">
+			</div>
+		</div>
+                
+		<div class="publish-textarea">
+			<textarea rows="5" cols="" maxlength="200" id="info">必填，请详情反馈</textarea>
+			<span>0/200</span>
+		</div>
+		<div class="publish-textarea">
+			<div class="publish-imgs-box">
+				<div class="flex flex-between">
+					<p>请提供相应问题的截图或照片</p>
+					<!--<span id="piclength">0/3</span>-->
+				</div>
+<!--				<div class="publish-images "  style="position: relative;" id="pic">
+					<img src="../addons/ewei_shopv2/plugin/shequ/static/images/rectangle12@2x.png" alt="" id="addpic">
+                                        <input type="file" name="imgFile" id="imgFile" class="inputfile imgFile1" multiple="" style="left:0;position: absolute;width:25vw;height:25vw;opacity: 0;display: inline;"/>
+				</div>-->
+                                <div class='fui-cell post-image' id="cell-images">
+
+                                    <div class='fui-cell-info'>
+
+                                        <ul class="fui-images fui-images-md"></ul>
+
+                                        <div class="fui-uploader2 fui-uploader-md publish-images"
+
+                                             data-max="5"
+
+                                             data-count="0">
+                                            <img src="../addons/ewei_shopv2/plugin/shequ/static/images/rectangle12@2x.png" alt="" id="addpic">
+                                            <input type="file" multiple="multiple" aria-multiselectable="true" name="imgFile[]"  id="imgFile" accept="image/*" style="left:9vw;position: absolute;width:25vw;height:25vw;opacity: 0;display: inline;" >
+
+				</div>
+
+			</div>
+
+		</div>
+                            
+			</div>
+		</div>
+                
+		<div style="height: 1vh; background: #eee;"></div>
+		<div class="publish-info">
+			<div class="publish-imgs-box">
+				<label>姓名：</label>
+				<input type="text" name="name">
+			</div>
+		</div>
+		<div style="height: 1vh; background: #eee;"></div>
+		<div class="publish-info">
+			<div class="publish-imgs-box">
+				<label>电话：</label>
+				<input type="text" name="tel">
+			</div>
+		</div>
+		<div style="height: 1vh; background: #eee;"></div>
+		<div class="publish-info">
+			<div class="publish-imgs-box">
+				<label>居住地址：</label>
+                                <input type="text" name="address">
+			</div>
+		</div>
+                <div style="height: 1vh; background: #eee;"></div>
+		<div class="publish-info credit">
+			<div class="publish-imgs-box">
+				<label>悬赏积分：</label>
+				<input type="text" name="reward_credit">
+                                <input type="hidden" name="is_free" value="0">
+			</div>
+		</div>
+		<div class="publish-xuqiu">
+			<a id="submit"><img src="../addons/ewei_shopv2/plugin/shequ/static/images/publishxuqiu.png" alt=""></a>
+		</div>
+		<div style="height: 5vh; background: #eee;"></div>
+	</div>
+        <script>
+                let selectStatus = document.getElementById("publish-type-item").getElementsByTagName("a");
+		
+		for(let i=0;i<selectStatus.length;i++){
+			selectStatus[i].onclick=function(e){
+                                check_is_free(selectStatus[i].id); //判断是否是免费发布板块
+				for(let i=0;i<selectStatus.length;i++){
+					e.preventDefault();
+					selectStatus[i].classList.remove("selectStatus");
+				}
+			selectStatus[i].className = 'selectStatus';
+			}
+		}
+            
+                function check_is_free(id){
+                    core.json('shequ/message/check_is_free', {bid: id},
+                    function(ret) {
+                        if(ret.status==1){  //成功
+                            if(ret.result.is_free==0){      //必须花费积分（显示悬赏积分输入框）
+                                    $(".credit").show();
+                                    $("input[name='is_free']").val(0);
+                            }else{                          //可以免费发布（隐藏悬赏积分输入框）
+                                    $(".credit").hide();
+                                    $("input[name='is_free']").val(1);
+                            }
+                        }else{              //失败
+                            FoxUI.toast.show(ret.result.message);
+                            location.reload();
+                        }
+                    },
+                    true, true)
+                }
+                
+		$('#submit').click(function() {
+                    var images = [];
+                    $('#cell-images').find('li').each(function () {
+                        images.push($(this).data('filename'))
+                    });
+                        
+                    var name=$("input[name='name']").val();
+//                    
+                    if(name==""){
+                        FoxUI.toast.show("请输入姓名!");
+                        return
+                    }
+                    var tel=$("input[name='tel']").val();
+                    if(tel==""){
+                        FoxUI.toast.show("请输入手机号码");
+                        return
+                    }
+                    <!-- if (!$("input[name='tel']").isMobile()) { -->
+                        <!-- FoxUI.toast.show("请输入正确的手机号码"); -->
+                        <!-- return -->
+                    <!-- } -->
+                    var address=$("input[name='address']").val();
+                    if(address==""){
+                        FoxUI.toast.show("请输入地址");
+                        return
+                    }
+                    var title=$("input[name='title']").val();
+                    if(title==""){
+                        FoxUI.toast.show("请输入标题");
+                        return
+                    }
+                    var info=$("#info").val();
+                    selectStatus=$(".selectStatus");
+                    if(selectStatus.length!=0){
+                        var type=$(".selectStatus")[0].id;
+                    }else{
+                        var type=0;
+                    }
+                    if(type==0){
+                        FoxUI.toast.show("请选择反馈类型，如没有类型请等待管理员添加");
+                        setTimeout(function(){ location.reload(); }, 3000);
+//                        location.reload();
+                        return;
+                    }
+//                    提交
+
+                    var reward_credit=$("input[name='reward_credit']").val();   //悬赏积分
+                    var is_free=$("input[name='is_free']").val();
+                    if(is_free==0){     //不能免费发布
+                        if(reward_credit<=0){
+                            FoxUI.toast.show("请输入大于0的悬赏积分!");
+                        }
+                    }
+                    
+                    var data={reward_credit:reward_credit,info:info,tel:tel,name:name,address:address,type:type,title:title,images:images};
+                    core.json('shequ/message/add', data, function (ret) {
+                        if(ret.status==1){  //成功
+                                FoxUI.toast.show("发表成功!");
+                                setTimeout(function(){ window.location.href="{php echo mobileUrl('shequ/message/feedbackhelp',array('shequid'=>$_GPC['shequid']))}"; }, 3000);
+                        }else{              //失败
+                            FoxUI.toast.show(ret.result.message);
+                            setTimeout(function(){ location.reload(); }, 3000);
+//                            location.reload();
+                            return;
+                        }
+                    }, true, true)
+                })
+                var reqParams = ['foxui','foxui.picker'];
+                require(reqParams,function(){
+                    $('.fui-uploader2').uploader({
+                        uploadUrl: "{php echo mobileUrl('util/uploader')}",
+                        removeIcon: 'icon icon-close',
+                        removeUrl:"{php echo mobileUrl('util/uploader/remove')}"
+                    });
+                })
+	</script>
+
+
+{template 'shequ/_footer'}

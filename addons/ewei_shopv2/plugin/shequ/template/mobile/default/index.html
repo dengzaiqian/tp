@@ -1,0 +1,108 @@
+{template 'shequ/_header'}
+	<div class="index-container">
+		{if empty($shequInfo)}
+			{if empty($default)}
+			<div class="index-content">
+				<div class="index-content-item">
+					<img src="../addons/ewei_shopv2/plugin/shequ/static/images/Pop-ups@2x.png" alt="">
+					<p class="index-content-font">您还未选择小区</p>
+					<div class="index-content-xiaoqu" onclick="toSelect()">
+						<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon3@2x.png" alt="">
+						<!-- <p>请选择小区</p> -->
+					</div>
+				</div>
+			</div>
+			{else}
+			<div class="index-content enter-select">
+				<div class="index-content-item enter-select">
+					<img src="../addons/ewei_shopv2/plugin/shequ/static/images/Pop-ups@2x.png" alt="">
+					<p class="index-content-font">{$default['shequname']}</p>
+					<div class="index-content-xiaoqu flex flex-around" id="index-content-xiaoqu">
+						<a href="javascript:void(0);" onclick="toSelect()">
+							<img src="../addons/ewei_shopv2/plugin/shequ/static/images/reselect.png" alt="">
+						</a>
+						<a href="javascript:void(0);" onclick="chooseArea({$default['id']})">
+							<img src="../addons/ewei_shopv2/plugin/shequ/static/images/enterarea.png" alt="">
+						</a>
+					</div>
+				</div>			
+			</div>			
+			{/if}
+		{else}
+		<div class="index-content enter-select">
+			<div class="index-content-item enter-select">
+				<img src="../addons/ewei_shopv2/plugin/shequ/static/images/Pop-ups@2x.png" alt="">
+				<p class="index-content-font">{$default['shequname']}</p>
+				<div class="index-content-xiaoqu flex flex-around" id="index-content-xiaoqu">
+					<a href="javascript:void(0);" onclick="toSelect()">
+						<img src="../addons/ewei_shopv2/plugin/shequ/static/images/reselect.png" alt="">
+					</a>
+					<a href="javascript:void(0);" onclick="chooseArea({$default['id']})">
+						<img src="../addons/ewei_shopv2/plugin/shequ/static/images/enterarea.png" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="havebeenArea">
+				{loop $shequInfo $s}
+				<a href="javascript:void(0);" onclick="chooseArea({$s['id']})">
+					<div class="flex flex-between">
+						<div style="margin-left: 3vw;width: 90%;">
+							<!-- <span>1</span> -->
+							<span>{$s['shequname']}</span>
+							<strong style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;font-weight: bold;display: block;color: #ccc;margin-top: 1vw;">石家庄市桥西区槐安东路60号惠美窗帘城</strong>
+						</div>
+						<div style="width: 6vw;"><img src="../addons/ewei_shopv2/plugin/shequ/static/images/rectangle10@2x.png" alt="" style="margin-left: 0;"></div>
+					</div>
+				</a>
+				{/loop}
+				<!-- <a href="merchantDistribution.html"> -->
+					<!-- <div class="flex flex-between"> -->
+						<!-- <div> -->
+							<!-- <span>2</span> -->
+							<!-- <span>小区名称</span> -->
+						<!-- </div> -->
+						<!-- <img src="../addons/ewei_shopv2/plugin/shequ/static/images/rectangle10@2x.png" alt=""> -->
+					<!-- </div> -->
+				<!-- </a> -->
+				<!-- <a href="merchantDistribution.html"> -->
+					<!-- <div class="flex flex-between"> -->
+						<!-- <div> -->
+							<!-- <span>3</span> -->
+							<!-- <span>小区名称</span> -->
+						<!-- </div> -->
+						<!-- <img src="../addons/ewei_shopv2/plugin/shequ/static/images/rectangle10@2x.png" alt=""> -->
+					<!-- </div> -->
+				<!-- </a> -->
+				<!-- <a href="merchantDistribution.html"> -->
+					<!-- <div class="flex flex-between"> -->
+						<!-- <div> -->
+							<!-- <span>4</span> -->
+							<!-- <span>小区名称</span> -->
+						<!-- </div> -->
+						<!-- <img src="../addons/ewei_shopv2/plugin/shequ/static/images/rectangle10@2x.png" alt=""> -->
+					<!-- </div> -->
+				<!-- </a> -->
+				<!-- <a href="merchantDistribution.html"> -->
+					<!-- <div class="flex flex-between"> -->
+						<!-- <div> -->
+							<!-- <span>5</span> -->
+							<!-- <span>小区名称</span> -->
+						<!-- </div> -->
+						<!-- <img src="../addons/ewei_shopv2/plugin/shequ/static/images/rectangle10@2x.png" alt=""> -->
+					<!-- </div> -->
+				<!-- </a> -->
+			</div>
+		</div>
+		{/if}
+	</div>
+	<script>
+		function  toSelect(){
+			window.location.href="{php echo mobileUrl('shequ/select')}";
+		}
+		function chooseArea(id=0){
+			if(id==0){layer.msg('参数异常');return false;}
+			let url = "{php echo mobileUrl('shequ/merchantDistribution')}&areaid="+id;
+			window.location.href=url;
+		}
+	</script>
+{template 'shequ/_footer'}

@@ -1,0 +1,12 @@
+{template 'shequ/_header'}
+	<div class="detail-box" style="width: 92vw;margin: auto;margin-top: 1rem;">
+		<h2 style="font-size: 5vw;margin-bottom: 3vh;">{$gonggao['title']}</h2>
+		<p>
+			<span style="color: #0F6CB8;">发布人:{$gonggao['author']}</span>
+			<strong style="color: #D8D8D8;padding-left: 5vw;">时间:{php echo date('Y-m-d',$gonggao['createtime'])}</strong>
+		</p>
+		<div style="margin-top: 5vh;">
+			<p style="text-indent: 7vw;font-size: 3.7vw;">{$gonggao['content']}</p>
+		</div>
+	</div>
+{template 'shequ/_footer'}

@@ -1,0 +1,802 @@
+可能存在丢scene情况，fd:1
+可能存在丢scene情况，fd:3
+可能存在丢scene情况，fd:2
+可能存在丢scene情况，fd:4
+可能存在丢scene情况，fd:5
+可能存在丢scene情况，fd:6
+可能存在丢scene情况，fd:7
+可能存在丢scene情况，fd:8
+可能存在丢scene情况，fd:9
+可能存在丢scene情况，fd:10
+可能存在丢scene情况，fd:11
+可能存在丢scene情况，fd:12
+可能存在丢scene情况，fd:13
+reload服务
+可能存在丢scene情况，fd:16
+可能存在丢scene情况，fd:17
+可能存在丢scene情况，fd:18
+reload服务
+reload服务
+可能存在丢scene情况，fd:21
+可能存在丢scene情况，fd:22
+可能存在丢scene情况，fd:23
+可能存在丢scene情况，fd:24
+可能存在丢scene情况，fd:25
+可能存在丢scene情况，fd:26
+可能存在丢scene情况，fd:27
+可能存在丢scene情况，fd:28
+可能存在丢scene情况，fd:29
+可能存在丢scene情况，fd:30
+可能存在丢scene情况，fd:31
+可能存在丢scene情况，fd:32
+[2018-07-25 02:08:40 *20239.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-07-25 02:09:09 *20238.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:35
+reload服务
+可能存在丢scene情况，fd:37
+可能存在丢scene情况，fd:38
+[2018-08-02 09:20:22 *9377.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-02 09:20:33 *9380.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-02 09:20:41 *9376.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:42
+可能存在丢scene情况，fd:43
+[2018-08-03 00:19:56 *15835.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-03 11:32:04 *15836.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:46
+[2018-08-03 13:35:21 *15834.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:48
+可能存在丢scene情况，fd:49
+可能存在丢scene情况，fd:50
+[2018-08-03 17:52:51 *3182.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:52
+可能存在丢scene情况，fd:53
+reload服务
+reload服务
+可能存在丢scene情况，fd:56
+可能存在丢scene情况，fd:57
+可能存在丢scene情况，fd:58
+[2018-08-04 13:45:40 *20879.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:60
+[2018-08-04 13:45:58 *20874.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:62
+可能存在丢scene情况，fd:63
+可能存在丢scene情况，fd:64
+可能存在丢scene情况，fd:65
+可能存在丢scene情况，fd:66
+可能存在丢scene情况，fd:67
+可能存在丢scene情况，fd:68
+[2018-08-05 19:04:20 *20878.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:70
+[2018-08-05 19:05:17 *22890.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-05 19:05:27 *20872.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-05 19:05:42 *22889.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-05 19:07:26 *12482.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:75
+可能存在丢scene情况，fd:76
+[2018-08-05 19:08:27 *12504.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-05 19:08:46 *20875.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-05 19:09:06 *20873.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-05 19:09:27 *20876.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-05 19:09:31 *12481.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-05 19:09:37 *12532.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+reload服务
+reload服务
+可能存在丢scene情况，fd:85
+可能存在丢scene情况，fd:86
+可能存在丢scene情况，fd:87
+[2018-08-05 19:10:36 *12564.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:89
+[2018-08-05 21:46:37 *12567.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-05 21:46:49 *12565.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:92
+可能存在丢scene情况，fd:93
+可能存在丢scene情况，fd:94
+可能存在丢scene情况，fd:95
+可能存在丢scene情况，fd:96
+[2018-08-06 11:53:25 *14484.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:98
+[2018-08-06 17:22:22 *12562.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:100
+可能存在丢scene情况，fd:101
+可能存在丢scene情况，fd:102
+可能存在丢scene情况，fd:103
+可能存在丢scene情况，fd:104
+可能存在丢scene情况，fd:105
+可能存在丢scene情况，fd:106
+reload服务
+reload服务
+可能存在丢scene情况，fd:109
+reload服务
+可能存在丢scene情况，fd:111
+可能存在丢scene情况，fd:112
+可能存在丢scene情况，fd:113
+可能存在丢scene情况，fd:114
+可能存在丢scene情况，fd:115
+可能存在丢scene情况，fd:117
+可能存在丢scene情况，fd:116
+可能存在丢scene情况，fd:118
+可能存在丢scene情况，fd:119
+可能存在丢scene情况，fd:120
+可能存在丢scene情况，fd:121
+可能存在丢scene情况，fd:122
+[2018-08-16 16:50:56 *18847.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-16 16:51:12 *18844.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-16 16:52:00 *16691.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-16 16:52:17 *16680.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:127
+[2018-08-16 16:53:43 *18841.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:129
+可能存在丢scene情况，fd:130
+可能存在丢scene情况，fd:131
+可能存在丢scene情况，fd:132
+可能存在丢scene情况，fd:133
+可能存在丢scene情况，fd:134
+可能存在丢scene情况，fd:135
+可能存在丢scene情况，fd:136
+可能存在丢scene情况，fd:137
+[2018-08-17 17:13:37 *16692.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-17 17:13:49 *16703.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-17 17:15:07 *18846.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-17 17:19:55 *2638.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:142
+[2018-08-17 18:25:47 *2612.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:144
+[2018-08-17 18:28:16 *2684.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-17 18:29:22 *3542.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:147
+[2018-08-17 18:34:51 *18845.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:149
+[2018-08-17 18:43:28 *3619.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-08-17 18:43:50 *3726.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:152
+[2018-08-17 18:44:05 *3502.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:154
+[2018-08-18 09:01:08 *16714.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:156
+可能存在丢scene情况，fd:157
+[2018-08-18 09:09:11 *3738.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:159
+[2018-08-18 09:22:35 *18843.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:161
+[2018-08-18 09:52:38 *2611.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:163
+[2018-08-18 10:05:47 *14665.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:165
+可能存在丢scene情况，fd:166
+可能存在丢scene情况，fd:167
+可能存在丢scene情况，fd:168
+可能存在丢scene情况，fd:169
+可能存在丢scene情况，fd:170
+[2018-08-21 17:06:15 *15366.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:172
+可能存在丢scene情况，fd:173
+可能存在丢scene情况，fd:174
+可能存在丢scene情况，fd:175
+可能存在丢scene情况，fd:176
+可能存在丢scene情况，fd:177
+可能存在丢scene情况，fd:178
+可能存在丢scene情况，fd:179
+可能存在丢scene情况，fd:180
+可能存在丢scene情况，fd:181
+可能存在丢scene情况，fd:182
+可能存在丢scene情况，fd:183
+可能存在丢scene情况，fd:184
+reload服务
+可能存在丢scene情况，fd:187
+可能存在丢scene情况，fd:188
+可能存在丢scene情况，fd:189
+可能存在丢scene情况，fd:190
+可能存在丢scene情况，fd:191
+可能存在丢scene情况，fd:192
+可能存在丢scene情况，fd:193
+可能存在丢scene情况，fd:194
+可能存在丢scene情况，fd:195
+可能存在丢scene情况，fd:196
+可能存在丢scene情况，fd:197
+reload服务
+可能存在丢scene情况，fd:199
+可能存在丢scene情况，fd:200
+可能存在丢scene情况，fd:201
+可能存在丢scene情况，fd:202
+可能存在丢scene情况，fd:203
+可能存在丢scene情况，fd:204
+可能存在丢scene情况，fd:205
+可能存在丢scene情况，fd:206
+可能存在丢scene情况，fd:207
+可能存在丢scene情况，fd:208
+可能存在丢scene情况，fd:209
+可能存在丢scene情况，fd:210
+可能存在丢scene情况，fd:211
+可能存在丢scene情况，fd:212
+可能存在丢scene情况，fd:214
+可能存在丢scene情况，fd:215
+可能存在丢scene情况，fd:216
+可能存在丢scene情况，fd:217
+可能存在丢scene情况，fd:218
+可能存在丢scene情况，fd:219
+可能存在丢scene情况，fd:220
+[2018-09-09 16:28:49 *31402.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:29:00 *31401.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:29:28 *31405.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:224
+可能存在丢scene情况，fd:225
+[2018-09-09 16:30:46 *30336.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:31:01 *30347.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:31:15 *30330.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:31:18 *30364.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:31:49 *31400.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:31:51 *31399.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+reload服务
+可能存在丢scene情况，fd:233
+[2018-09-09 16:33:15 *30402.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:235
+可能存在丢scene情况，fd:236
+可能存在丢scene情况，fd:237
+[2018-09-09 16:34:09 *30400.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:239
+[2018-09-09 16:36:33 *30396.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:37:37 *30424.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:37:54 *30450.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:39:28 *30461.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:39:57 *30488.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:41:44 *30401.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:41:49 *30413.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:42:05 *30462.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:248
+可能存在丢scene情况，fd:249
+可能存在丢scene情况，fd:251
+[2018-09-09 16:48:20 *30515.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-09 16:49:43 *30527.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:250
+可能存在丢scene情况，fd:254
+可能存在丢scene情况，fd:255
+reload服务
+可能存在丢scene情况，fd:260
+可能存在丢scene情况，fd:259
+可能存在丢scene情况，fd:261
+可能存在丢scene情况，fd:262
+可能存在丢scene情况，fd:263
+可能存在丢scene情况，fd:264
+可能存在丢scene情况，fd:265
+可能存在丢scene情况，fd:266
+可能存在丢scene情况，fd:267
+可能存在丢scene情况，fd:268
+可能存在丢scene情况，fd:269
+可能存在丢scene情况，fd:270
+[2018-09-22 16:47:49 *32730.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-22 16:49:11 *32724.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-09-22 16:55:40 *10624.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:274
+可能存在丢scene情况，fd:275
+[2018-09-22 16:59:33 *10723.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:277
+可能存在丢scene情况，fd:278
+可能存在丢scene情况，fd:279
+可能存在丢scene情况，fd:281
+可能存在丢scene情况，fd:280
+可能存在丢scene情况，fd:282
+可能存在丢scene情况，fd:284
+可能存在丢scene情况，fd:285
+可能存在丢scene情况，fd:286
+可能存在丢scene情况，fd:287
+可能存在丢scene情况，fd:288
+可能存在丢scene情况，fd:289
+可能存在丢scene情况，fd:290
+可能存在丢scene情况，fd:291
+可能存在丢scene情况，fd:292
+可能存在丢scene情况，fd:293
+可能存在丢scene情况，fd:294
+reload服务
+可能存在丢scene情况，fd:297
+可能存在丢scene情况，fd:298
+可能存在丢scene情况，fd:299
+可能存在丢scene情况，fd:300
+可能存在丢scene情况，fd:301
+可能存在丢scene情况，fd:302
+可能存在丢scene情况，fd:303
+可能存在丢scene情况，fd:304
+可能存在丢scene情况，fd:305
+可能存在丢scene情况，fd:306
+可能存在丢scene情况，fd:307
+可能存在丢scene情况，fd:308
+可能存在丢scene情况，fd:309
+可能存在丢scene情况，fd:310
+可能存在丢scene情况，fd:311
+可能存在丢scene情况，fd:312
+可能存在丢scene情况，fd:313
+[2018-10-21 13:44:17 #1668.0]	NOTICE	Server is shutdown now.
+[2018-10-21 13:44:18 #1668.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-10-21 13:44:18 *22398.2]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-10-21 13:44:18 *22396.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-10-21 13:44:18 *22401.5]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-10-21 13:44:18 *22403.7]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-10-21 13:44:18 *22399.3]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-10-21 13:44:18 *22400.4]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-10-21 13:44:18 *22402.6]	WARNING	swSignal_callback: signal[1] callback is null.
+可能存在丢scene情况，fd:1
+可能存在丢scene情况，fd:2
+可能存在丢scene情况，fd:3
+reload服务
+可能存在丢scene情况，fd:6
+可能存在丢scene情况，fd:7
+可能存在丢scene情况，fd:8
+可能存在丢scene情况，fd:9
+可能存在丢scene情况，fd:10
+可能存在丢scene情况，fd:11
+可能存在丢scene情况，fd:12
+可能存在丢scene情况，fd:13
+可能存在丢scene情况，fd:14
+可能存在丢scene情况，fd:15
+可能存在丢scene情况，fd:16
+可能存在丢scene情况，fd:17
+可能存在丢scene情况，fd:18
+可能存在丢scene情况，fd:19
+可能存在丢scene情况，fd:20
+可能存在丢scene情况，fd:21
+可能存在丢scene情况，fd:22
+可能存在丢scene情况，fd:23
+可能存在丢scene情况，fd:24
+可能存在丢scene情况，fd:25
+可能存在丢scene情况，fd:26
+[2018-11-06 00:12:09 *30938.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+reload服务
+可能存在丢scene情况，fd:29
+可能存在丢scene情况，fd:30
+可能存在丢scene情况，fd:31
+[2018-11-06 00:13:47 *18616.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:33
+可能存在丢scene情况，fd:34
+可能存在丢scene情况，fd:35
+可能存在丢scene情况，fd:36
+可能存在丢scene情况，fd:37
+可能存在丢scene情况，fd:38
+可能存在丢scene情况，fd:39
+可能存在丢scene情况，fd:40
+可能存在丢scene情况，fd:41
+可能存在丢scene情况，fd:42
+可能存在丢scene情况，fd:43
+可能存在丢scene情况，fd:44
+可能存在丢scene情况，fd:45
+可能存在丢scene情况，fd:46
+可能存在丢scene情况，fd:47
+可能存在丢scene情况，fd:48
+可能存在丢scene情况，fd:49
+可能存在丢scene情况，fd:50
+可能存在丢scene情况，fd:51
+[2018-11-12 17:40:41 *18624.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-12 17:41:04 *18614.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-12 17:42:50 *305.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-12 19:06:36 *318.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:57
+可能存在丢scene情况，fd:58
+可能存在丢scene情况，fd:59
+可能存在丢scene情况，fd:60
+可能存在丢scene情况，fd:61
+可能存在丢scene情况，fd:62
+[2018-11-17 10:04:00 *341.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:04:31 *1913.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:04:49 *18615.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:66
+reload服务
+可能存在丢scene情况，fd:68
+[2018-11-17 10:08:39 *25908.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:08:46 *25909.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:71
+可能存在丢scene情况，fd:72
+reload服务
+可能存在丢scene情况，fd:74
+[2018-11-17 10:12:06 *25956.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:12:15 *25950.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:76
+[2018-11-17 10:12:24 *25957.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:12:32 *25996.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:12:41 *25993.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:12:49 *25999.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:12:57 *25955.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:13:06 *26001.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:13:14 *25998.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:13:30 *26003.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:13:39 *26017.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:14:21 *25953.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 10:16:00 *25954.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:89
+[2018-11-17 11:01:09 *26040.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 11:01:38 *26020.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 11:03:27 *26889.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+reload服务
+可能存在丢scene情况，fd:95
+[2018-11-17 12:07:12 *26934.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-17 12:08:23 *26933.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:99
+可能存在丢scene情况，fd:100
+可能存在丢scene情况，fd:101
+可能存在丢scene情况，fd:104
+可能存在丢scene情况，fd:103
+可能存在丢scene情况，fd:102
+可能存在丢scene情况，fd:105
+[2018-11-18 01:21:34 *26931.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-18 01:21:53 *28111.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+reload服务
+可能存在丢scene情况，fd:109
+[2018-11-18 01:22:43 *10289.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:111
+可能存在丢scene情况，fd:112
+可能存在丢scene情况，fd:113
+可能存在丢scene情况，fd:114
+[2018-11-22 15:31:01 *10292.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 15:33:00 *10290.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 16:04:57 *10287.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:118
+[2018-11-22 17:57:37 *789.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:58:26 *1434.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:58:29 *10288.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:58:39 *3550.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:58:39 *829.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:58:46 *3554.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:58:50 *3553.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:58:50 *3534.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:58:54 *3557.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:58:58 *3556.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:59:07 *3551.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:59:14 *3572.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:59:21 *3560.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:59:24 *10285.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:59:27 *10286.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:59:29 *10284.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:59:44 *3578.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:59:52 *3581.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 17:59:59 *3583.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:00 *3580.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:04 *3574.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:08 *3586.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:14 *3585.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:14 *3587.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:19 *3607.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:21 *3605.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:22 *3604.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:24 *3606.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:25 *3558.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:28 *3609.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:28 *3612.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:00:36 *3614.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:01:04 *3618.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:01:13 *3616.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:01:21 *3649.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:01:40 *3650.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:01:46 *3615.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:01:49 *3610.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:01:52 *3652.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:01:53 *3613.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:01:56 *3657.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:00 *3579.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:00 *3661.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:06 *3656.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:11 *3664.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:19 *3677.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:31 *3676.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:42 *3681.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:47 *3682.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:49 *3684.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:02:52 *3660.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:03:15 *3689.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:03:19 *3688.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:03:37 *3687.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:03:41 *3701.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:03:52 *3663.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:03:55 *10283.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:03:56 *3706.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:04:01 *3708.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:04:03 *3709.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:04:11 *3722.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:04:14 *3559.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:04:18 *3731.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:04:37 *3725.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:04:45 *3733.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:04:45 *3735.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:04:52 *3710.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:05:02 *3662.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:05:07 *3736.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:05:15 *3705.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:05:37 *3739.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:05:53 *3703.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:05:56 *3752.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:06:05 *3737.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:06:06 *3762.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:06:06 *3761.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:06:13 *3751.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:06:30 *3777.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:06:36 *3776.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:06:37 *3780.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:06:47 *3782.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:07:01 *3724.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:07:23 *3787.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:07:35 *3785.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:07:45 *3775.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:07:49 *3808.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:08:46 *3811.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:08:50 *3759.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:08:57 *3830.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:09:45 *3800.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:10:08 *3845.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:10:17 *3831.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:10:19 *3864.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:10:31 *3754.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:10:57 *3827.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:11:03 *3868.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:11:40 *3876.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:11:53 *3888.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:12:14 *3895.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:12:16 *3897.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:12:16 *3865.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:12:59 *3909.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:13:34 *3911.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:14:24 *3867.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:14:40 *3916.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:15:31 *3952.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:15:41 *3954.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:15:42 *3774.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:16:03 *3969.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:16:47 *3985.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:17:46 *3972.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:18:24 *3809.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:18:30 *4015.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:18:51 *4029.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:19:04 *3971.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:20:16 *3910.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:20:48 *4045.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:22:19 *3992.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:23:16 *4072.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:24:15 *4067.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:25:23 *4031.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:25:40 *4140.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:27:04 *4162.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:28:24 *4165.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:29:22 *3784.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:32:40 *4218.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:32:45 *4236.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:33:28 *4034.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:34:29 *4295.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:36:18 *4312.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:36:59 *4328.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:37:29 *4364.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:37:30 *4370.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:37:33 *4195.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:38:30 *4107.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:38:52 *4408.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:40:06 *4410.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:47:02 *3659.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:52:45 *4384.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 18:57:34 *4565.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:02:36 *4664.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:07:02 *4383.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:10:45 *4385.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:11:49 *5000.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:16:21 *4938.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:25:04 *4748.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:29:11 *5023.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:30:52 *5261.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:32:55 *5335.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:36:09 *5362.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:36:31 *5464.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 19:57:30 *4443.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:09:27 *5466.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:10:16 *5839.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:10:40 *4296.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:10:57 *5400.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:15:49 *4856.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:25:54 *6091.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:25:55 *6085.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:27:05 *6180.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:34:22 *6388.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:37:48 *6359.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:45:42 *6519.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:52:12 *6089.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:53:43 *6842.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 20:58:42 *6870.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 21:02:59 *6717.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 21:08:09 *6575.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 21:12:35 *7143.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 21:22:01 *7047.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 21:44:27 *6954.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 22:04:51 *7790.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 22:09:14 *7395.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 22:09:56 *8162.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 22:11:39 *8244.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 22:57:13 *7220.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 22:57:57 *8249.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 23:08:15 *9101.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 23:08:48 *8291.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-22 23:10:09 *9112.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:299
+[2018-11-22 23:52:22 *6066.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 00:02:30 *10100.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 00:54:52 *9312.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 03:44:26 *10303.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 03:56:14 *9350.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 03:56:22 *14475.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 03:56:34 *11392.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 07:35:37 *9318.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 07:35:48 *6358.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 07:35:58 *14689.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 08:10:34 *18620.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 08:17:17 *18617.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 10:25:20 *5104.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 12:04:26 *3930.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 15:29:57 *23501.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-23 17:55:18 *19377.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-24 00:11:20 *21679.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-24 00:11:29 *27230.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:318
+[2018-11-24 23:42:50 *4290.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-24 23:42:53 *4283.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-24 23:43:01 *14686.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 00:49:49 *29882.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 00:49:58 *31152.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 00:50:08 *29893.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 00:50:17 *31153.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 00:50:26 *31171.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 17:20:12 *31170.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 17:20:16 *31173.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:34:39 *29858.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:34:49 *16790.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:34:59 *29880.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:35:08 *18622.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:35:17 *19259.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:35:27 *21363.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:35:37 *16788.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:35:46 *21350.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:35:56 *21376.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:36:05 *21374.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:36:15 *21366.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:36:24 *21365.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:36:35 *21389.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:36:48 *14684.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:36:57 *21393.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 21:37:07 *21390.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-25 22:57:38 *21410.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 09:25:35 *21398.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 09:25:42 *22847.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 09:25:52 *2017.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 09:26:01 *2021.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 10:52:20 *2020.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 10:59:16 *21347.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 11:17:32 *3617.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 16:49:18 *3739.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 17:08:03 *4123.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-26 17:08:14 *21349.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-27 08:25:07 *10434.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-27 08:25:16 *10432.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-27 08:25:26 *10087.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-27 14:52:42 *21397.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:360
+[2018-11-28 05:01:24 *1744.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-28 05:01:34 *27124.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-28 05:01:43 *2023.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-28 05:01:57 *21377.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:365
+可能存在丢scene情况，fd:366
+[2018-11-29 08:26:44 *17310.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-29 08:26:59 *27123.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:369
+可能存在丢scene情况，fd:370
+[2018-11-29 12:27:38 *14773.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-29 12:27:45 *27121.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:373
+[2018-11-30 19:44:24 *19131.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-30 19:44:33 *20711.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-11-30 19:44:42 *19132.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:377
+可能存在丢scene情况，fd:378
+可能存在丢scene情况，fd:379
+可能存在丢scene情况，fd:380
+可能存在丢scene情况，fd:381
+可能存在丢scene情况，fd:382
+[2018-12-04 17:43:51 *20713.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-12-04 18:21:54 *20715.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-12-04 20:04:54 *17313.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+[2018-12-04 23:02:20 *26088.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to a member function onMessage() on boolean in /www/wwwroot/we7shop/addons/ewei_shopv2/core/socket/server.php on line 136.
+可能存在丢scene情况，fd:387
+[2020-03-06 17:45:35 #2173.0]	NOTICE	Server is shutdown now.
+可能存在丢scene情况，fd:2
+可能存在丢scene情况，fd:1
+可能存在丢scene情况，fd:3
+可能存在丢scene情况，fd:4
+可能存在丢scene情况，fd:5
+[2020-03-07 09:24:33 #2191.0]	NOTICE	Server is shutdown now.
+write(log_fd, size=83) failed. Error: Input/output error[5].
+reload服务
+可能存在丢scene情况，fd:3
+可能存在丢scene情况，fd:2
+可能存在丢scene情况，fd:4
+可能存在丢scene情况，fd:6
+可能存在丢scene情况，fd:5
+可能存在丢scene情况，fd:7
+reload服务
+reload服务
+可能存在丢scene情况，fd:10
+可能存在丢scene情况，fd:11
+可能存在丢scene情况，fd:12
+可能存在丢scene情况，fd:13
+可能存在丢scene情况，fd:14
+可能存在丢scene情况，fd:19
+可能存在丢scene情况，fd:22
+可能存在丢scene情况，fd:25
+[2020-03-08 10:43:27 *20621.6]	WARNING	http_request_on_header_value: cookie is too large.
+可能存在丢scene情况，fd:20
+可能存在丢scene情况，fd:26
+可能存在丢scene情况，fd:28
+可能存在丢scene情况，fd:31
+可能存在丢scene情况，fd:35
+可能存在丢scene情况，fd:39
+可能存在丢scene情况，fd:41
+可能存在丢scene情况，fd:57
+可能存在丢scene情况，fd:58
+可能存在丢scene情况，fd:59
+可能存在丢scene情况，fd:62
+可能存在丢scene情况，fd:82
+可能存在丢scene情况，fd:92
+可能存在丢scene情况，fd:91
+PHP Warning:  Error while sending QUERY packet. PID=20621 in /home/wwwroot/default/renren/addons/ewei_shopv2/core/socket/pdo.php on line 278
+
+Warning: Error while sending QUERY packet. PID=20621 in /home/wwwroot/default/renren/addons/ewei_shopv2/core/socket/pdo.php on line 278
+[2020-03-11 14:41:15 *20621.6]	WARNING	swSignal_callback: signal[13] callback is null.
+可能存在丢scene情况，fd:99
+可能存在丢scene情况，fd:101
+可能存在丢scene情况，fd:103
+可能存在丢scene情况，fd:105
+可能存在丢scene情况，fd:135
+PHP Warning:  Error while sending QUERY packet. PID=20619 in /home/wwwroot/default/renren/addons/ewei_shopv2/core/socket/pdo.php on line 278
+
+Warning: Error while sending QUERY packet. PID=20619 in /home/wwwroot/default/renren/addons/ewei_shopv2/core/socket/pdo.php on line 278
+[2020-03-12 12:54:12 *20619.4]	WARNING	swSignal_callback: signal[13] callback is null.
+可能存在丢scene情况，fd:147
+可能存在丢scene情况，fd:148
+可能存在丢scene情况，fd:152
+可能存在丢scene情况，fd:233
+可能存在丢scene情况，fd:1
+可能存在丢scene情况，fd:4
+可能存在丢scene情况，fd:13
+可能存在丢scene情况，fd:18
+可能存在丢scene情况，fd:19
+可能存在丢scene情况，fd:20
+可能存在丢scene情况，fd:22
+可能存在丢scene情况，fd:23
+可能存在丢scene情况，fd:24
+可能存在丢scene情况，fd:25
+可能存在丢scene情况，fd:48
+可能存在丢scene情况，fd:65
+可能存在丢scene情况，fd:76
+可能存在丢scene情况，fd:135
+PHP Warning:  Error while sending QUERY packet. PID=17463 in /home/wwwroot/default/renren/addons/ewei_shopv2/core/socket/pdo.php on line 278
+
+Warning: Error while sending QUERY packet. PID=17463 in /home/wwwroot/default/renren/addons/ewei_shopv2/core/socket/pdo.php on line 278
+[2020-04-03 10:17:08 *17463.6]	WARNING	swSignal_callback: signal[13] callback is null.
+可能存在丢scene情况，fd:142
+可能存在丢scene情况，fd:153
+可能存在丢scene情况，fd:157
+可能存在丢scene情况，fd:160
+可能存在丢scene情况，fd:162
+可能存在丢scene情况，fd:169
+可能存在丢scene情况，fd:171
+PHP Warning:  Error while sending QUERY packet. PID=17463 in /home/wwwroot/default/renren/addons/ewei_shopv2/core/socket/pdo.php on line 278
+
+Warning: Error while sending QUERY packet. PID=17463 in /home/wwwroot/default/renren/addons/ewei_shopv2/core/socket/pdo.php on line 278
+[2020-04-07 14:58:59 *17463.6]	WARNING	swSignal_callback: signal[13] callback is null.
+可能存在丢scene情况，fd:187
+可能存在丢scene情况，fd:189
+可能存在丢scene情况，fd:186
+可能存在丢scene情况，fd:205
+可能存在丢scene情况，fd:245
+可能存在丢scene情况，fd:249
+可能存在丢scene情况，fd:252
+可能存在丢scene情况，fd:257
+[2020-04-10 09:34:41 #17456.0]	NOTICE	Server is shutdown now.
+write(log_fd, size=83) failed. Error: Input/output error[5].
+可能存在丢scene情况，fd:5
+可能存在丢scene情况，fd:11
+可能存在丢scene情况，fd:18
+可能存在丢scene情况，fd:24
+可能存在丢scene情况，fd:25
+可能存在丢scene情况，fd:31
+可能存在丢scene情况，fd:32
+可能存在丢scene情况，fd:33

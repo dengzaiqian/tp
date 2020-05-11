@@ -1,0 +1,83 @@
+<style type='text/css'>
+   .mc-list a {
+      position: relative;
+   }
+   .mc-list span  {
+
+      float:right;margin-right:20px;
+   }
+</style>
+
+<div class='menu-header'>入驻申请</div>
+<ul class="mc-list">
+   {ifp 'shequ.reg'}<li {if $_W['routes']=='shequ.reg' && $_GPC['status']==0}class="active"{/if}><a href="{php echo webUrl('shequ/reg',array('status'=>0))}">申请中 <span class="text-danger" id="reg0">-</span></a> </li>{/if}
+   {ifp 'shequ.reg'}<li {if $_W['routes']=='shequ.reg' && $_GPC['status']==-1}class="active"{/if}><a href="{php echo webUrl('shequ/reg',array('status'=>-1))}">驳回 <span class="text-default"  id="reg_1">-</span></a> </li>{/if}
+</ul>
+
+<div class='menu-header'>社区管理</div>
+<ul class="mc-list">
+   {ifp 'shequ.user'}<li {if $_W['routes']=='shequ.user' && $_GPC['status']==0}class="active"{/if}><a href="{php echo webUrl('shequ/user',array('status'=>0))}">待入驻 <span class="text-success"  id="user0">-</span></a></li>{/if}
+   {ifp 'shequ.user'}<li {if $_W['routes']=='shequ.user' && $_GPC['status']==1}class="active"{/if}><a href="{php echo webUrl('shequ/user',array('status'=>1))}">入驻中 <span class="text-primary"  id="user1">-</span></a></li>{/if}
+   {ifp 'shequ.user'}<li {if $_W['routes']=='shequ.user' && $_GPC['status']==2}class="active"{/if}><a href="{php echo webUrl('shequ/user',array('status'=>2))}">暂停中 <span class="text-warning"  id="user2">-</span></a></li>{/if}
+   {ifp 'shequ.user'}<li {if $_W['routes']=='shequ.user' && $_GPC['status']==3}class="active"{/if}><a href="{php echo webUrl('shequ/user',array('status'=>3))}">即将到期 <span class="text-danger"   id="user3">-</span></a></li>{/if}
+   {ifp 'shequ.group'}<li {if $_W['routes']=='shequ.group'}class="active"{/if}><a href="{php echo webUrl('shequ/group')}">社区分组</a></li>{/if}
+   {ifp 'shequ.category'}<li {if $_W['routes']=='shequ.category'}class="active"{/if}><a href="{php echo webUrl('shequ/category')}">社区分类</a></li>{/if}
+</ul>
+
+<div class='menu-header'>数据</div>
+<ul class="mc-list">
+   {ifp 'shequ.statistics.order'}<li {if $_W['routes']=='shequ.statistics.order'}class="active"{/if}><a href="{php echo webUrl('shequ/statistics/order')}">订单统计</a></li>{/if}
+   {ifp 'shequ.statistics.shequ'}<li {if $_W['routes']=='shequ.statistics.shequ'}class="active"{/if}><a href="{php echo webUrl('shequ/statistics/shequ')}">社区统计</a></li>{/if}
+</ul>
+
+<div class='menu-header'>提现申请</div>
+<ul class="mc-list">
+    {ifp 'shequ.check.status1'}<li {if $_W['routes']=='shequ.check.status1'}class="active"{/if}><a href="{php echo webUrl('shequ/check/status1')}">待确认的 <span class="text-default"  id="status1">-</span></a></li>{/if}
+    {ifp 'shequ.check.status2'}<li {if $_W['routes']=='shequ.check.status2'}class="active"{/if}><a href="{php echo webUrl('shequ/check/status2')}">待打款的 <span class="text-primary"  id="status2">-</span></a></li>{/if}
+    {ifp 'shequ.check.status3'}<li {if $_W['routes']=='shequ.check.status3'}class="active"{/if}><a href="{php echo webUrl('shequ/check/status3')}">已打款的 <span class="text-success"  id="status3">-</span></a></li>{/if}
+    {ifp 'shequ.check.status_1'}<li {if $_W['routes']=='shequ.check.status_1'}class="active"{/if}><a href="{php echo webUrl('shequ/check/status_1')}">无效的 <span class="text-success"  id="status_1">-</span></a></li>{/if}
+</ul>
+
+<!--div class='menu-header'>结算订单</div>
+<ul class="mc-list">
+
+   {ifp 'shequ.clearing.status0'}<li {if $_W['routes']=='shequ.clearing.status0'}class="active"{/if}><a href="{php echo webUrl('shequ/clearing/status0')}">待确认 <span class="text-default"  id="status0">-</span></a></li>{/if}
+   {ifp 'shequ.clearing.status1'}<li {if $_W['routes']=='shequ.clearing.status1'}class="active"{/if}><a href="{php echo webUrl('shequ/clearing/status1')}">待结算 <span class="text-primary"  id="status1">-</span></a></li>{/if}
+   {ifp 'shequ.clearing.status2'}<li {if $_W['routes']=='shequ.clearing.status2'}class="active"{/if}><a href="{php echo webUrl('shequ/clearing/status2')}">已结算 <span class="text-success"  id="status2">-</span></a></li>{/if}
+   {ifp 'shequ.clearing.add'}<li {if $_W['routes']=='shequ.clearing.add'}class="active"{/if}><a href="{php echo webUrl('shequ/clearing/add')}">创建结算单</a></li>{/if}
+
+</ul-->
+
+<div class='menu-header'>设置</div>
+<ul>
+
+   {ifp 'shequ.set'}<li {if $_W['routes']=='shequ.set'}class="active"{/if}><a href="{php echo webUrl('shequ/set')}">基础设置</a></li>{/if}
+   {ifp 'shequ.notice'}<li {if $_W['routes']=='shequ.notice'}class="active"{/if}><a href="{php echo webUrl('shequ/notice')}">通知设置</a></li>{/if}
+   {ifp 'shequ.cover'}<li {if $_W['routes']=='shequ.cover'}class="active"{/if}><a href="{php echo webUrl('shequ/cover')}">入口设置</a></li>{/if}
+   {ifp 'shequ.category.swipe'}<li {if $_W['routes']=='shequ.category.swipe'}class="active"{/if}><a href="{php echo webUrl('shequ/category.swipe')}">社区分类幻灯</a></li>{/if}
+
+</ul>
+<script language="javascript">
+   $(function(){
+      $.ajax({
+         url: "{php echo webUrl('shequ/util/totals')}",
+         dataType:'json',
+         cache:false,
+         success:function(ret){
+            $('#reg0').html( ret.result.reg0);
+            $('#reg_1').html( ret.result.reg_1);
+            $('#user0').html( ret.result.user0);
+            $('#user1').html( ret.result.user1);
+            $('#user2').html( ret.result.user2);
+            $('#user3').html( ret.result.user3);
+//            $('#status0').html( ret.result.status0);
+            $('#status1').html( ret.result.status1);
+            $('#status2').html( ret.result.status2);
+            $('#status3').html( ret.result.status3);
+            $('#status_1').html( ret.result.status_1);
+         }
+      });
+
+   });
+
+</script>

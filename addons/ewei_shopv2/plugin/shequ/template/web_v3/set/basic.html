@@ -1,0 +1,27 @@
+<div class="form-group">
+    <label class="col-sm-2 control-label must">帮助列表页轮播图</label>
+    <div class="col-sm-9 col-xs-12 gimgs">
+        {ifp 'shequ.set.edit'}
+        {php echo tpl_form_field_multi_image2('scrollpic',$data["scrollpic"])}
+        {else}
+        {loop $data["scrollpic"] $p}
+        <a href='{php echo tomedia($p)}' target='_blank'>
+            <img src="{php echo tomedia($p)}" style='height:100px;border:1px solid #ccc;padding:1px;float:left;margin-right:5px;' />
+        </a>
+        {/loop}
+        {/if}
+    </div>
+</div>
+<div class="form-group">
+    <label class="col-lg control-label">是否开启社区</label>
+    <div class="col-sm-8">
+        {ifp 'shequ.set.edit'}
+        <label class="radio-inline"><input type="radio"  name="data[is_openshequ]" value="1" {if $data['is_openshequ'] ==1} checked="checked"{/if} /> 开启</label>
+        <label class="radio-inline"><input type="radio"  name="data[is_openshequ]" value="0" {if $data['is_openshequ'] ==0} checked="checked"{/if} /> 不开启</label>
+        <div class='help-block'></div>
+        {else}
+        {if $data['apply_openweb'] ==0}不允许{else}允许{/if}
+        {/if}
+    </div>
+</div>
+

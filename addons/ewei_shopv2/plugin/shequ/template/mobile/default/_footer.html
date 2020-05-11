@@ -1,0 +1,41 @@
+<script language="javascript">
+	//查看物业公告详情
+	function showMassageNoticeDetail(id=0){
+		let url = "{php echo mobileUrl('shequ/moredynamicsdetail')}";
+		window.location.href = url+'&gid='+id;
+	}
+	clearTimeout(window.interval);
+	window.interval = setTimeout(function () {
+		window.shareData = {php echo json_encode($_W['shopshare'])};
+		jssdkconfig = {php echo json_encode($_W['account']['jssdkconfig']);} || { jsApiList:[] };
+		jssdkconfig.debug = false;
+		jssdkconfig.jsApiList = ['checkJsApi','onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','showOptionMenu', 'hideMenuItems', 'onMenuShareQZone', 'scanQRCode','openLocation'];
+		wx.config(jssdkconfig);
+		wx.ready(function () {
+			wx.showOptionMenu();
+
+			{if !empty($_W['shopshare']['hideMenus'])}
+				wx.hideMenuItems({
+					menuList: {php echo  json_encode($_W['shopshare']['hideMenus'])}
+				});
+			{/if}
+
+			window.shareData.success = "{$_W['shopshare']['way']}";
+			if(window.shareData.success){
+				var success = window.shareData.success;
+				window.shareData.success = function(){
+					eval(success)
+				};
+			}
+
+
+			wx.onMenuShareAppMessage(window.shareData);
+			wx.onMenuShareTimeline(window.shareData);
+			wx.onMenuShareQQ(window.shareData);
+			wx.onMenuShareWeibo(window.shareData);
+			wx.onMenuShareQZone(window.shareData);
+		});
+	},500);
+</script>
+</body>
+</html>

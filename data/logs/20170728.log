@@ -1,0 +1,7 @@
+2017-07-28 11:54:05 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users`  WHERE 1  AND `uid`=:uid LIMIT 1<hr/>Params: <br/>array (
+  ':uid' => 1,
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_users' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /framework/model/user.mod.php; line: 100; <br />file: /web/common/bootstrap.sys.inc.php; line: 11; <br />file: /web/index.php; line: 8; <br />
+

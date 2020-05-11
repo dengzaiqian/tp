@@ -1,0 +1,1 @@
+{"plid":"90","type":"","uniacid":"1","acid":"0","openid":"1","uniontid":"","tid":"SH15857090220204","fee":"0.01","status":"0","module":"ewei_shopv2","tag":"","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":""}

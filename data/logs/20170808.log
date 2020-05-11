@@ -1,0 +1,112 @@
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `value` FROM `ims_core_cache` WHERE `key` =  :__key  LIMIT 1<hr/>Params: <br/>array (
+  ':__key' => 'setting',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/class/db.class.php; line: 260; <br />file: /framework/function/pdo.func.php; line: 61; <br />file: /framework/function/cache.mysql.func.php; line: 10; <br />file: /framework/function/cache.func.php; line: 39; <br />file: /framework/model/setting.mod.php; line: 34; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /index.php; line: 6; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_core_settings`<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_settings' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /framework/model/setting.mod.php; line: 36; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /index.php; line: 6; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>REPLACE INTO `ims_core_cache` SET `key` =  :key , `value` =  :value<hr/>Params: <br/>array (
+  ':key' => 'setting',
+  ':value' => 'b:0;',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /framework/function/cache.mysql.func.php; line: 55; <br />file: /framework/model/setting.mod.php; line: 42; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /index.php; line: 6; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_site_multi` WHERE bindhost = :bindhost<hr/>Params: <br/>array (
+  ':bindhost' => 'localhost',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_site_multi' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /index.php; line: 9; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `value` FROM `ims_core_cache` WHERE `key` =  :__key  LIMIT 1<hr/>Params: <br/>array (
+  ':__key' => 'setting',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/class/db.class.php; line: 260; <br />file: /framework/function/pdo.func.php; line: 61; <br />file: /framework/function/cache.mysql.func.php; line: 10; <br />file: /framework/function/cache.func.php; line: 39; <br />file: /framework/model/setting.mod.php; line: 34; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /web/index.php; line: 7; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_core_settings`<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_settings' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /framework/model/setting.mod.php; line: 36; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /web/index.php; line: 7; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>REPLACE INTO `ims_core_cache` SET `key` =  :key , `value` =  :value<hr/>Params: <br/>array (
+  ':key' => 'setting',
+  ':value' => 'b:0;',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /framework/function/cache.mysql.func.php; line: 55; <br />file: /framework/model/setting.mod.php; line: 42; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /web/index.php; line: 7; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `value` FROM `ims_core_cache` WHERE `key` =  :__key  LIMIT 1<hr/>Params: <br/>array (
+  ':__key' => 'we7:lastaccount:',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/class/db.class.php; line: 260; <br />file: /framework/function/pdo.func.php; line: 61; <br />file: /framework/function/cache.mysql.func.php; line: 10; <br />file: /framework/function/cache.func.php; line: 39; <br />file: /framework/model/account.mod.php; line: 788; <br />file: /web/common/bootstrap.sys.inc.php; line: 33; <br />file: /web/index.php; line: 8; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `value` FROM `ims_core_cache` WHERE `key` =  :__key  LIMIT 1<hr/>Params: <br/>array (
+  ':__key' => 'setting',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/class/db.class.php; line: 260; <br />file: /framework/function/pdo.func.php; line: 61; <br />file: /framework/function/cache.mysql.func.php; line: 10; <br />file: /framework/function/cache.func.php; line: 39; <br />file: /framework/model/setting.mod.php; line: 34; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /web/index.php; line: 7; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_core_settings`<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_settings' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /framework/model/setting.mod.php; line: 36; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /web/index.php; line: 7; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>REPLACE INTO `ims_core_cache` SET `key` =  :key , `value` =  :value<hr/>Params: <br/>array (
+  ':key' => 'setting',
+  ':value' => 'b:0;',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /framework/function/cache.mysql.func.php; line: 55; <br />file: /framework/model/setting.mod.php; line: 42; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /web/index.php; line: 7; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `value` FROM `ims_core_cache` WHERE `key` =  :__key  LIMIT 1<hr/>Params: <br/>array (
+  ':__key' => 'we7:lastaccount:',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/class/db.class.php; line: 260; <br />file: /framework/function/pdo.func.php; line: 61; <br />file: /framework/function/cache.mysql.func.php; line: 10; <br />file: /framework/function/cache.func.php; line: 39; <br />file: /framework/model/account.mod.php; line: 788; <br />file: /web/common/bootstrap.sys.inc.php; line: 33; <br />file: /web/index.php; line: 8; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `value` FROM `ims_core_cache` WHERE `key` =  :__key  LIMIT 1<hr/>Params: <br/>array (
+  ':__key' => 'setting',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/class/db.class.php; line: 260; <br />file: /framework/function/pdo.func.php; line: 61; <br />file: /framework/function/cache.mysql.func.php; line: 10; <br />file: /framework/function/cache.func.php; line: 39; <br />file: /framework/model/setting.mod.php; line: 34; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /web/index.php; line: 7; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_core_settings`<hr/>Params: <br/>array (
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_settings' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 195; <br />file: /framework/function/pdo.func.php; line: 44; <br />file: /framework/model/setting.mod.php; line: 36; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /web/index.php; line: 7; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>REPLACE INTO `ims_core_cache` SET `key` =  :key , `value` =  :value<hr/>Params: <br/>array (
+  ':key' => 'setting',
+  ':value' => 'b:0;',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /framework/function/cache.mysql.func.php; line: 55; <br />file: /framework/model/setting.mod.php; line: 42; <br />file: /framework/bootstrap.inc.php; line: 127; <br />file: /web/index.php; line: 7; <br />
+
+2017-08-08 10:31:19 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `value` FROM `ims_core_cache` WHERE `key` =  :__key  LIMIT 1<hr/>Params: <br/>array (
+  ':__key' => 'we7:lastaccount:',
+)<hr/>SQL Error: <br/>Table 'fenxiao.ims_core_cache' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/class/db.class.php; line: 260; <br />file: /framework/function/pdo.func.php; line: 61; <br />file: /framework/function/cache.mysql.func.php; line: 10; <br />file: /framework/function/cache.func.php; line: 39; <br />file: /framework/model/account.mod.php; line: 788; <br />file: /web/common/bootstrap.sys.inc.php; line: 33; <br />file: /web/index.php; line: 8; <br />
+

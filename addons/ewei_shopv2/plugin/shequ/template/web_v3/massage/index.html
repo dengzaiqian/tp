@@ -1,0 +1,149 @@
+{template '_header'}
+
+<div class="page-header">
+    当前位置：<span class="text-primary"> 社区管理 </span>
+</div>
+<div class="page-content">
+<form action="./index.php" method="get" class="form-horizontal" role="form" id="form1">
+    <input type="hidden" name="c" value="site" />
+    <input type="hidden" name="a" value="entry" />
+    <input type="hidden" name="m" value="ewei_shopv2" />
+    <input type="hidden" name="do" value="web" />
+    <input type="hidden" name="r" value="shequ.massage" />
+
+    <div class="page-toolbar m-b-sm m-t-sm">
+        <div class="col-sm-3">
+             <span class='pull-left'>
+                    <a class='btn btn-primary btn-sm' href="{php echo webUrl('shequ/massage/add',array('status'=>$_GPC['status']))}">
+                        <i class="fa fa-plus"></i>发布公告</a>
+                </span>
+        </div>
+
+        <div class="col-sm-8 pull-right">
+            <div class="input-group">
+
+                <div class="input-group-select">
+                    <select name='status' class='form-control  input-sm select-md' style="width:100px;"  >
+                        <option value=''>状态</option>
+                        <option value='1' {if $_GPC['status']=='1'}selected{/if}>显示</option>
+                        <option value='2' {if $_GPC['status']=='2'}selected{/if}>隐藏</option>
+                    </select>
+                </div>
+                <input type="text" class="form-control input-sm"  name="keyword" value="{$_GPC['keyword']}" placeholder="社区名称/联系人/手机号"/>
+				<span class="input-group-btn">
+					<button class="btn btn-primary" type="submit"> 搜索</button>
+				</span>
+            </div>
+
+        </div>
+    </div>
+</form>
+{if count($list)>0}
+<div class="page-table-header">
+    <input type="checkbox">
+    <div class="btn-group">
+        {ifp 'shequ.massage.edit'}
+        <a class='btn btn-default btn-sm btn-operation'  data-toggle='batch' data-href="{php echo webUrl('shequ/massage/status',array('status'=>1))}"  data-confirm='确认要显示吗?'>
+            <i class="icow icow-qiyong"></i>显示
+        </a>
+        <a class='btn btn-default btn-sm btn-operation'  data-toggle='batch' data-href="{php echo webUrl('shequ/massage/status',array('status'=>2))}" data-confirm='确认要隐藏吗?'>
+            <i class="icow icow-jinyong"></i>隐藏
+        </a>
+        {/if}
+        {ifp 'shequ.massage.delete'}
+        <a class="btn btn-default btn-sm btn-operation" type="button" data-toggle='batch-remove' data-confirm="确认要删除?" data-href="{php echo webUrl('shequ/massage/delete')}">
+            <i class='icow icow-shanchu1'></i> 删除
+        </a>
+        {/if}
+    </div>
+</div>
+<table class="table table-hover table-responsive">
+    <thead class="navbar-inner" >
+    <tr>
+        <th style="width:25px;"></th>
+        <th>公告名称</th>
+        <th>公告简介</th>
+        <th>发布时间</th>
+        <th>浏览人数</th>
+        <th>状态</th>
+        <th style='width:65px;'>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {loop $list $row}
+    <tr rel="pop" data-title="ID: {$row['id']}" data-id="{$row['id']}" >
+        <td>
+            <input type='checkbox'   value="{$row['id']}"/>
+        </td>
+        <td>
+            {$row['title']}<br/>
+        </td>
+        <td>{$row['desc']}</td>
+        <td>{if empty($row['createtime'])}-{else}{php echo date('Y-m-d',$row['createtime'])}<br/>{php echo date('H:i',$row['createtime'])}{/if}</td>
+        <td>{$row['viewcount']}</td>
+        <td>
+            {if $row['status']==1}
+            <label class="label label-primary">显示</label>
+            {elseif $row['status']==2}
+            <label class="label label-danger">隐藏</label>
+            {/if}
+        </td>
+        <td  style="overflow:visible;">
+            {ifp 'shequ.massage.view|shequ.massage.edit'}
+            <a href="{php echo webUrl('shequ/massage/edit', array('id' => $row['id'],'status'=>$_GPC['status']))}" class="btn btn-default btn-sm btn-op btn-operation" >
+                  <span data-toggle="tooltip" data-placement="top" title="" data-original-title="{ifp 'shequ.massage.edit'}修改{else}查看{/if}">
+                        <i class='icow icow-bianji2'></i>
+                   </span>
+            </a>
+            {/if}
+            {ifp 'shequ.massage.delete'}
+            <a data-toggle='ajaxRemove' href="{php echo webUrl('shequ/massage/delete', array('id' => $row['id']))}"class="btn btn-default btn-sm btn-op btn-operation" data-confirm='确认要删除此社区吗?'>
+                <span data-toggle="tooltip" data-placement="top" title="" data-original-title="删除">
+                     <i class='icow icow-shanchu1'></i>
+                </span>
+            </a>
+            {/if}
+        </td>
+    </tr>
+    {/loop}
+    </tbody>
+    <tfoot>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td colspan="2">
+                <div class="btn-group">
+                    {ifp 'shequ.massage.edit'}
+                    <a class='btn btn-default btn-sm btn-operation'  data-toggle='batch' data-href="{php echo webUrl('shequ/massage/status',array('status'=>1))}"  data-confirm='确认要显示吗?'>
+                        <i class="icow icow-qiyong"></i>显示
+                    </a>
+                    <a class='btn btn-default btn-sm btn-operation'  data-toggle='batch' data-href="{php echo webUrl('shequ/massage/status',array('status'=>2))}" data-confirm='确认要隐藏吗?'>
+                        <i class="icow icow-jinyong"></i> 隐藏
+                    </a>
+                    {/if}
+                    {ifp 'shequ.massage.delete'}
+                    <a class="btn btn-default btn-sm btn-operation" type="button" data-toggle='batch-remove' data-confirm="确认要删除?" data-href="{php echo webUrl('shequ/massage/delete')}">
+                        <i class='icow icow-shanchu1'></i> 删除
+                    </a>
+                    {/if}
+                </div>
+            </td>
+            <td colspan="5" class="text-right">
+                {$pager}
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+{else}
+<div class='panel panel-default'>
+    <div class='panel-body' style='text-align: center;padding:30px;'>
+        暂时没有任何社区!
+    </div>
+</div>
+{/if}
+    </div>
+<script language="javascript">
+
+</script>
+
+{template '_footer'}

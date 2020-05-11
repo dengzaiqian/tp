@@ -1,0 +1,208 @@
+{template '_header'}
+{template 'shequ/common'}
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/plugin/qa/static/css/common.css?v=2016063000">
+<style>
+    .fui-list-group{
+        margin-top: 0;
+        display: none;
+    }
+</style>
+<script  language='javascript'>
+    function getHeight (obj){
+        var w = obj.width;
+        var h = obj.height;
+        console.error('h:'+ h +'     w:'+w)
+
+        var height = ((750*h) / w) / 40 + 'rem';
+        $('.fui-swipe.goods-swipe').css('height', height );
+        $('.fui-swipe.goods-swipe .fui-swipe-wrapper .fui-swipe-item img').css('height', height);
+    }
+</script>
+
+
+<div class="fui-page page-shequ-list">
+    <div class="fui-header">
+        <div class="fui-header-left">
+            <a class="back" href="{php echo mobileUrl('shequ/list')}"></a>
+        </div>
+        <div class="title">{if $_GPC['i']==3}入驻企业{else}线下店联盟{/if}</div>
+        <div class="fui-header-right"></div>
+    </div>
+    <div class="fui-content" style="bottom: 2.4rem">
+
+        <form action="{php echo mobileUrl('shequ/list/shequuser')}" method="post">
+            <div class="fui-searchbar bar">
+                <div class="searchbar center">
+                    <input type="submit" class="searchbar-cancel searchbtn" value="搜索" />
+                    <div class="search-input">
+                        <i class="icon icon-search"></i>
+                        <input type="search" placeholder="输入关键字...." class="search" name="keyword">
+                    </div>
+                </div>
+            </div>
+        </form>
+{if $_GPC['i']!=3}
+		<!--易--福轮播已完成-->
+<div>
+	<div class='fui-swipe goods-swipe' style="height: auto;">
+		<div class='fui-swipe-wrapper'>
+			<div class='fui-swipe-item'>
+				<img src="../addons/ewei_shopv2/plugin/shequ/template/mobile/default/static/images/store.jpg"/>
+			</div>
+			<div class='fui-swipe-item'>
+				<img src="../addons/ewei_shopv2/plugin/shequ/template/mobile/default/static/images/store0.jpg"/>
+			</div>
+		</div>
+		<div class='fui-swipe-page'></div>
+	</div>
+</div>
+{/if}	
+		
+		<!-- <div class="" style="width:100%"> -->
+			<!-- <img style="width:100%" src="../addons/ewei_shopv2/plugin/shequ/template/mobile/default/static/images/store.jpg"> -->
+		<!-- </div> -->
+        <ul class="sortMenu fui-list">
+            <li class="fui-list-inner" id="sortmenu_rule" data-class="sortmenu_rule"><span id="sortmenu_rule_text">附近</span><i class="icon icon-down"></i></li>
+            <li class="fui-list-inner" id="sortmenu_cate" data-class="sortmenu_cate"><span id="sortmenu_cate_text">分类</span><i class="icon icon-down"></i></li>
+            <li class="fui-list-inner" id="sortmenu_sort" data-class="sortmenu_sort"><span id="sortmenu_sort_text">智能排序</span><i class="icon icon-down"></i></li>
+            <div class="sortmenu_rule" style="display: none;">
+                <ul>
+                    <li range="500" text="附近">附近</li>
+                    <li range="0.5" text="500米">500米</li>
+                    <li range="1" text="1000米">1000米</li>
+                    <li range="2" text="2000米">2000米</li>
+                    <li range="5" text="5000米">5000米</li>
+                    <li range="10000" text="5000米以上">5000米以上</li>
+                </ul>
+            </div>
+            <div class="sortmenu_cate" style="display: none;">
+                <ul class="allcategory">
+                    <li cateid="0" text="全部分类" class="on fui-cell-group">
+						<i class="fa fa-th-large"></i>&nbsp;全部分类
+					</li>
+
+                    {loop $category $item}
+                    <li cateid="{$item['id']}" style="display:block;float:left;width:25%;text-align:center;" text="{$item['catename']}" class="fui-icon-group col-4 noborder">
+						<a class="fui-icon-col external" style="width: 100% !important;">
+						<div class="icon" style="text-align:center;">
+							<img src="{php echo tomedia($item['thumb'])}"/>
+						</div>
+                        <div class="text">{$item['catename']}</div>
+						</a>
+                    </li>
+                    {/loop}
+                </ul>
+            </div>
+			<style>
+				.sort-mask{top:0};
+				<!-- .sortmenu_cate .allcategory li{display:block;float:left;width: 25% !important;text-align: center;} -->
+			</style>
+            <!-- <div class="sortmenu_cate" style="display: none;"> -->
+				<!-- <div class="fui-cell-group qa-title"> -->
+					<!-- <div class="fui-cell"> -->
+						<!-- <div class="fui-cell-text">推荐分类</div> -->
+						<!-- <a class="fui-cell-remark external" href="{php echo mobileUrl('shequ/list/category')}">全部</a> -->
+					<!-- </div> -->
+				<!-- </div> -->
+				<!-- <div class="fui-icon-group col-4 noborder"> -->
+					<!-- {loop $category $item} -->
+					<!-- <a class="fui-icon-col external" href="{php echo mobileUrl('shequ/list/shequuser', array('cateid'=>$item['id']))}"> -->
+						<!-- <div class="icon"> -->
+							<!-- <img src="{php echo tomedia($item['thumb'])}"/> -->
+						<!-- </div> -->
+						<!-- <div class="text">{$item['catename']}</div> -->
+					<!-- </a> -->
+					<!-- {/loop} -->
+				<!-- </div> -->
+            <!-- </div> -->
+            <div class="sortmenu_sort" style="display: none;">
+                <ul>
+                    <li sorttype="0" text="距离最近">距离最近</li>
+                    <li sorttype="1" text="最新入驻">最新入驻</li>
+                 </ul>
+            </div>
+        </ul>
+        <div class="fui-mask-m sort-mask" style="display: none;"></div>
+
+        <div class="fui-cell-group qa-title">
+            <div class="fui-cell">
+                <div class="fui-cell-text">{if $_GPC['i']==3}入驻企业{else}推荐商家{/if}</div>
+            </div>
+        </div>
+
+        <div class='fui-content-inner'>
+            <div class='content-empty' style='display:none;'>
+                <i class='icon icon-lights'></i><br/>暂时没有{if $_GPC['i']==3}入驻企业{else}商家{/if}<br/><a href="{php echo mobileUrl()}" class='btn btn-default-o external'>到处逛逛</a>
+            </div>
+            <div class='fui-list-group container'></div>
+            <div class='infinite-loading'><span class='fui-preloader'></span><span class='text'> 正在加载...</span></div>
+        </div>
+    </div>
+    <script id='tpl_shequ_list_user' type='text/html'>
+        <%each list as value%>
+            <div  class="fui-list store-item"
+                  data-lng="<%value.lng%>"
+                  data-lat="<%value.lat%>">
+
+
+                <div class="fui-list-media">
+                    <div class="fui-list-media">
+                        <a href="<%value.shequ_url%>">
+                        <img src="<%value.logo%>" class="round">
+                        </a>
+                     </div>
+                </div>
+                <div class="fui-list-inner store-inner">
+                    <a href="<%value.shequ_url%>">
+                    <div class="title"> <span class='storename'><%value.shequname%></span></div>
+                    <%if value.address!=''%>
+                    <div class="text">
+                        地址: <span class='realname'><%value.address%></span>
+                    </div>
+                    <%/if%>
+
+                    <%if value.tel!=''%>
+                    <div class="text">
+                        电话: <span class='address'><%value.tel%></span>
+                    </div>
+                    <%/if%>
+
+                    <%if value.catename!=''%>
+                    <div class="text">
+                        分类: <span class='address'><%value.catename%></span>
+                    </div>
+                    <%/if%>
+
+                    <div class="text location" style="color:green;">
+                        <%if value.distance<100000%>
+                        距离您:<%value.distance%>km
+                        <%else%>
+                        <%/if%>
+                    </div>
+                    </a>
+                </div>
+
+
+                <div class="fui-list-angle ">
+                    <%if value.tel!=''%><a href="tel:<%value.tel%>" class='external '><i class=' icon icon-phone' style='color:green'></i></a><%/if%>
+                    <a href="<%value.url%>" class='external' ><i class='icon icon-location' style='color:#f90'></i></a>
+                </div>
+            </div>
+        <%/each%>
+
+        <div id="nearStore" style="display:none">
+            <div class='fui-list store-item' id='nearStoreHtml'></div>
+        </div>
+
+
+    </script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7&s=1"></script>
+    <script language="javascript">
+        require(['../addons/ewei_shopv2/plugin/shequ/static/js/list.js'], function (modal) {
+            modal.init({cateid:'{$_GPC['cateid']}',keyword:'{$_GPC['keyword']}'});
+        })
+    </script>
+    {php $this->footerMenus()}
+</div>
+{template '_footer'}
+

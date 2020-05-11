@@ -1,0 +1,50 @@
+{template 'shequ/_header'}
+		<header class="merchant-header" style="position: fixed;top: 0;">
+			<div class="header-item">
+				<div class="flex" style="width: 100vw;overflow: auto;">
+					{loop $services $s}
+					<div class="flex-item">
+						<div class="header-item-list">
+							<a href="#wuye{$s['id']}">{$s['groupname']}</a>
+						</div>
+					</div>
+					{/loop}
+				</div>
+			</div>
+		</header>
+		
+		<div style="margin-top: 18vh;margin-bottom: 10vh;width: 100vw;">
+		{loop $services $s}
+		<div class="dynamics wuye" id="wuye{$s['id']}">
+			<div class="dynamics-item flex flex-between">
+				<h3>{$s['groupname']}</h3>
+				<!-- <a href="#">更多</a> -->
+			</div>
+			{if count($s['massage'])>0}
+				{loop $s['massage'] $m}
+				<div class="dynamics-item flex flex-between" onclick="showMassageNoticeDetail({$m['id']})" >
+					<div class="flex flex-cloumn flex-start" style="flex: 1;">
+						<p style="line-height:4vh;text-overflow: ellipsis;max-width: 41vw;overflow: hidden;white-space: nowrap;width: 100%;">{$m['title']}</p>
+						<span style="overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">{$m['desc']}</span>
+					</div>
+					<div class="dynamics-item-img">
+						<img src="{php echo tomedia($m['logo'])}" width="100%" height="100%"/>
+					</div>
+				</div>
+				{/loop}
+			{/if}
+		</div>
+		<div style="height: 1vh;background: #eee;"></div>
+		
+		
+		{/loop}
+		</div>
+		
+		<footer class="feedback-help">
+			<div class="feedback">
+				<a href="{php echo mobileUrl('shequ/message',array('shequid'=>$id))}">
+					<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon8.png" alt="">
+				</a>
+			</div>
+		</footer>
+{template 'shequ/_footer'}

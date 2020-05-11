@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>选择小区</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" href="../addons/ewei_shopv2/plugin/shequ/static/css/index.css">
+		<link rel="stylesheet" href="../addons/ewei_shopv2/plugin/shequ/static/css/style.css">
+		<script src="./resource/js/lib/jquery-1.11.1.min.js"></script>
+		<script src="//res.wx.qq.com/open/js/jweixin-1.3.0.js"></script>
+		<!-- <script src="../addons/ewei_shopv2/static/js/dist/foxui/js/foxui.min.js"></script> -->
+		<!-- <script src="../addons/ewei_shopv2/static/js/require.js"></script> -->
+		<!-- <script src="../addons/ewei_shopv2/static/js/myconfig-app.js"></script> -->
+		<!-- <script language="javascript">require(['core'],function(modal){init({siteUrl: "{$_W['siteroot']}",baseUrl: "{php echo mobileUrl('ROUTES')}"})});</script> -->
+		<!-- <script src="../addons/ewei_shopv2/static/js/app/core.js?v=1586313638547"></script> -->
+		<!-- <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="init" src="../addons/ewei_shopv2/static/js/app/init.js?v=1586313638547"></script> -->
+		<!-- <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="tpl" src="../addons/ewei_shopv2/static/js/app/../dist/tmodjs.js?v=1586314166780"></script> -->
+		<!-- <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="foxui" src="../addons/ewei_shopv2/static/js/app/../dist/foxui/js/foxui.min.js?v=1586314166780"></script> -->
+		
+	</head>
+	<body>
+		<div class="select-area">
+			<div class="select-area-item select-area-header" >
+				<img src="../addons/ewei_shopv2/plugin/shequ/static/images/rectangle@2x.png" alt="">
+				<div class="select-area-item-desc">
+					<p>描述</p>
+				</div>
+			</div>
+			<div class="select-area-item flex flex-around flex-between">
+				<div class="flex flex-start" style="margin-left: 6vw;">
+					<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon7@2x.png" alt="" class="ditu">
+					<p class="flex flex-cloumn" >
+						<span class="loc-font">您当前所在位置：</span>
+						<label id="addressDetail"></label> 
+					</p>
+				</div>
+				<div class="reload">
+					<input type="button" onclick="window.location.reload();" value="重新获取">
+				</div>
+			</div>
+			<div class="select-area-item select-area-search flex flex-around">
+				<div class="flex flex-start">
+					<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon5@2x.png" alt="" class="search-icon">
+					<input type="text" placeholder="请输入小区名称或关键字" class="key-input">
+				</div>
+				<div class="search-btn">
+					<span>搜索</span>
+				</div>
+			</div>
+			<div style="height: 2vh;background: #eee;margin-top: 4vh;"></div>
+			<div class="item-list" id="areaList">
+				<div class="select-area-item flex flex-around flex-between item-list-border">
+					<div class="flex flex-start" style="margin-left: 7vw;">
+						<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon6@2x.png" alt="" class="ditu">
+						<p class="flex flex-cloumn" >
+							<span class="loc-font font24">小区名称：</span>
+							<label>河北省石家庄市桥西区****</label> 
+						</p>
+					</div>
+					<div class="center">
+						<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon4@2x.png" alt="" style="width: 7vw;">
+						<p>120m</p>
+					</div>
+				</div>
+				
+				<div class="select-area-item flex flex-around flex-between item-list-border">
+					<div class="flex flex-start" style="margin-left: 7vw;">
+						<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon6@2x.png" alt="" class="ditu">
+						<p class="flex flex-cloumn" >
+							<span class="loc-font font24">小区名称：</span>
+							<label>河北省石家庄市桥西区****</label> 
+						</p>
+					</div>
+					<div class="center">
+						<img src="../addons/ewei_shopv2/plugin/shequ/static/images/icon4@2x.png" alt="" style="width: 7vw;">
+						<p>120m</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7&s=1"></script>
+    
+		<script src="../addons/ewei_shopv2/plugin/shequ/static/js/selectArea.js"></script>
+		<script language="javascript">
+			<!-- require(['../addons/ewei_shopv2/plugin/shequ/static/js/list.js'], function (modal) { -->
+				<!-- init({cateid:'{$_GPC['cateid']}',keyword:'{$_GPC['keyword']}'}); -->
+			<!-- }) -->
+			var geolocation = new BMap.Geolocation();
+			geolocation.getCurrentPosition(function (r) {
+				var _this = this;
+				var lat = 0;
+				var lng = 0;
+				if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+					lat = r.point.lat;
+					lng = r.point.lng;
+				}
+				console.log(r);
+				var page = 1;
+				$.post("{php echo mobileUrl('shequ/index/ajaxshequuser')}", {page: page,lat: lat, lng: lng}, function (ret) {
+					console.log(ret);
+					var result = ret.result;
+					$('#addressDetail').html(result.address);
+					if (result.total <= 0) {
+						$('.content-empty').show();
+						$('.fui-content').infinite('stop')
+					} else {
+						$('.content-empty').hide();
+						$('.container').show();
+						$('.fui-content').infinite('init');
+						if (result.list.length <= 0 || result.list.length < result.pagesize) {
+							$('.fui-content').infinite('stop')
+						}
+					}
+					page++;
+					<!-- core.tpl('.container', 'tpl_shequ_list_user', result, page > 2); -->
+				},'json')
+			})
+		</script>
+	</body>
+</html>

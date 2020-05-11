@@ -1,0 +1,64 @@
+{template 'shequ/_header'}
+	<div id="publish-wrap">
+		<header class="publish-header">
+			<p>选择反馈类型</p>
+			<div class="flex flex-around publish-type-item">
+				<a href="">上门维修</a>
+				<a href="">技术支持</a>
+				<a href="">网络问题</a>
+				<a href="">其他</a>
+			</div>
+			<div class="publish-textarea">
+				<div class="publish-imgs-box">
+					<div class="flex flex-between">
+						<p>请提供相应问题的截图或照片</p>
+						<span>0/3</span>
+					</div>
+					<div class="publish-images">
+						<div style="position: relative;">
+							<input type="file" style="position: absolute;width:25vw;height:25vw;opacity: 0;display: inline;"/>
+							<img src="../../../static/images/rectangle12@2x.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="publish-images">
+					<img src="img/rectangle12@2x.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div style="height: 1vh; background: #eee;"></div>
+		<div class="publish-info">
+			<div class="publish-imgs-box">
+				<label>姓名：</label>
+				<input type="text">
+			</div>
+		</div>
+		<div style="height: 1vh; background: #eee;"></div>
+		<div class="publish-info">
+			<div class="publish-imgs-box">
+				<label>电话：</label>
+				<input type="text">
+			</div>
+			<div class="publish-xuqiu">
+				<a href="publishcomp.html"><img src="../../../static/images/publishxuqiu.png" alt=""></a>
+			</div>
+		</div>
+		<div class="publish-xuqiu">
+			<a href="publishcomp.html"><img src="./img/publishxuqiu.png" alt=""></a>
+		</div>
+		<div style="height: 5vh; background: #eee;"></div>
+	</div>
+	<script>
+		let selectStatus = document.getElementById("publish-type-item").getElementsByTagName("a");
+		
+		for(let i=0;i<selectStatus.length;i++){
+			selectStatus[i].onclick=function(e){
+				for(let i=0;i<selectStatus.length;i++){
+					e.preventDefault();
+					selectStatus[i].classList.remove("selectStatus");
+				}
+			selectStatus[i].className = 'selectStatus';
+			}
+		}
+	</script>
+{template 'shequ/_footer'}

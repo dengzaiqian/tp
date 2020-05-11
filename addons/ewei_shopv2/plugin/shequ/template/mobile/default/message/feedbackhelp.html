@@ -1,0 +1,155 @@
+{template 'shequ/_header'}
+<style>
+		.feedback-header .banner {
+			width: 100%;
+			height: 100%;
+                        height: 26vh;
+/*                        bottom: 167%;
+                        right:27%;
+                        width: 155%;*/
+                         bottom: 0;
+                         right:0%;
+		}
+		.feedback-header .banner .left-btn,.right-btn{
+			font-family: "宋体";opacity: .3;
+			z-index: 999;
+			}
+		.feedback-header .banner .left-btn:hover,.right-btn:hover{
+			opacity: 1;
+		}
+		</style>
+        <div class="wrap flex" style="overflow-x: hidden">
+                <header class="feedback-header" style="padding:0vh">
+                        <!--<p>BANNER</p>-->
+                        <div class="banner"></div>
+                </header>
+                <div class="feedback-content">
+                        <div class="flex" id="tab">
+                                <section class="flex feedback-category">
+                                {loop $board $k $s}
+                                <div {if $k==0}class="active"{/if} {if $k>=3}{/if} onclick="change(this,{$s['id']})" >{$s['title']}</div>
+                                {/loop}
+                                </section>
+                        </div>
+                        <div id="tabCon">
+                            {if $list_len!=0}
+                                {loop $list $key $val}
+                                    {if $val["len"]==0}
+                                    <section class="feedback-question {if $key==0}fdiv{/if}" id='post{$val["id"]}'>
+                                    <div class="searchempty">
+                                            <div class="item-list searchempty">
+                                                    <img src="../addons/ewei_shopv2/plugin/shequ/static/images/searchempty.png" alt="">
+                                                    <p>这里空空如也呢</p>
+                                            </div>
+                                    </div>
+                                </section>
+                                {else}
+                                <section class="feedback-question {if $key==0}fdiv{/if}" id='post{$val["id"]}'>
+                                    {loop $val["post"] $v}
+                                        <a href="{php echo mobileUrl('sns/post',array('id'=>$v['id']))}">
+                                                <div class="flex flex-between feedback-box">
+                                                        <div class="flex">
+                                                                <span>{$v["id"]}</span>
+                                                                <div class="ques-desc">
+                                                                        <p>{$v["title"]}</p>
+                                                                        <span>{$v["content"]}</span>
+                                                                </div>
+                                                        </div>
+                                                        <img src="../addons/ewei_shopv2/plugin/shequ/static/images/rectangle10@2x.png" alt="" class="feedback-sort">
+                                                </div>
+                                        </a>
+                                    {/loop}
+                                </section>
+                                
+                                {/if}
+                                {/loop}
+                            {else}
+                                <section class="feedback-question fdiv" id='post{$val["id"]}'>
+                                    <div class="searchempty">
+                                            <div class="item-list searchempty">
+                                                    <img src="../addons/ewei_shopv2/plugin/shequ/static/images/searchempty.png" alt="">
+                                                    <p>这里空空如也呢</p>
+                        </div>
+                                    </div>
+                                </section>
+                            {/if}
+                        </div>
+
+                        <!-- 如果没有信息，可以展示这个空页面 -->
+                        <!-- <div class="searchempty">
+                                <div class="item-list searchempty">
+                                        <img src="./img/searchempty.png" alt="">
+                                        <p>这里空空如也呢</p>
+                                </div>
+                        </div> -->
+                </div>
+                <div class="feedback-liuyan" onclick='check()'>
+                        <a>去留言</a>
+                        <!--<a href="{php echo mobileUrl('shequ/message',array('shequid'=>$_GPC['shequid']))}">去留言</a>-->
+                </div>
+</div>
+        <script>
+            var scrollpic={$scrollpic};
+            
+                $('.banner').slider({
+                            imgList: scrollpic, //图片的列表
+                            width: "100%", //图片的宽
+                            height: "26vh", //图片的高
+                            isAuto: true, //是否自动轮播
+                            moveTime: 2000, //运动时间
+                            direction: 'right', //轮播的方向
+                            btnWidth: 30, //按钮的宽
+                            btnHeight: 30, //按钮的高
+                            spanWidth: 10, //span按钮的宽
+                            spanHeight: 10, //span按钮的高
+                            spanColor: '#fff', //span按钮的颜色
+                            activeSpanColor: 'red', //选中的span颜色
+                            btnBackgroundColor: 'rgba(0, 0, 0, 0.3)', //两侧按钮的颜色
+                            spanRadius: '50%', //span按钮的圆角程度
+                            spanMargin: 3, //span之间的距离
+                    })
+            </script>
+        <script>
+//                var tabs=document.getElementById("tab").getElementsByTagName("div");
+//                var divs=document.getElementById("tabCon").getElementsByTagName("section");
+//
+//                for(var i=0;i<tabs.length;i++){
+//                        tabs[i].onclick=function(){change(this);}
+//                }
+//
+//                function change(obj){
+//                    for(var i=0;i<tabs.length;i++){
+//                        if(tabs[i]==obj){
+//                            tabs[i].classList.add("active");
+//                            // tabs[i].className="active";
+//                            // divs[i].className="fdiv";
+//                            divs[i].classList.add("fdiv");
+//                        }else{
+//                            tabs[i].className="";
+//                            divs[i].className="feedback-question";
+//                        }
+//                    }
+//                } 
+                function change(obj,bid){
+                    var tabs=document.getElementById("tab").getElementsByTagName("div");
+                    for(var i=0;i<tabs.length;i++){
+                            tabs[i].classList.remove("active");
+				}
+                    obj.classList.add("active");
+                    var divs=document.getElementById("tabCon").getElementsByTagName("section");
+                    for(var i=0;i<divs.length;i++){
+                            divs[i].classList.remove("fdiv");
+                    }
+                    var showsection=document.getElementById("post"+bid);
+                    showsection.classList.add("fdiv");
+                }
+                function check(){
+                    var len={$list_len};     //反馈类型数
+                    if(len==0){
+                        alert("该社区没有添加反馈类型，请等待管理员添加后进行操作");
+                    }else{
+                        window.location.href="{php echo mobileUrl('shequ/message',array('shequid'=>$_GPC['shequid']))}";
+                    }
+                }
+        </script>
+{template 'shequ/_footer'}

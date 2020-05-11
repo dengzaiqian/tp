@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>帮助与反馈</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+	</head>
+	<body>
+		<div class="wrap flex">
+			<header class="feedback-header">
+				<p>BANNER</p>
+			</header>
+			<div class="feedback-content">
+				<div class="flex" id="tab">
+					<section class="flex feedback-category">
+						<div class="active">分类</div>
+						<div>分类</div>
+					</section>
+				</div>
+				<div id="tabCon">
+					<section class="feedback-question fdiv">
+						<a href="messagedetail.html">
+							<div class="flex flex-between feedback-box">
+								<div class="flex">
+									<span>1</span>
+									<div class="ques-desc">
+										<p>问题</p>
+										<span>问题描述</span>
+									</div>
+								</div>
+								<img src="img/rectangle10@2x.png" alt="" class="feedback-sort">
+							</div>
+						</a>
+						<a href="messagedetail.html">
+							<div class="flex flex-between feedback-box">
+								<div class="flex">
+									<span>2</span>
+									<div class="ques-desc">
+										<p>问题</p>
+										<span>问题描述</span>
+									</div>
+								</div>
+								<img src="img/rectangle10@2x.png" alt="" class="feedback-sort">
+							</div>
+						</a>
+						<a href="messagedetail.html">
+							<div class="flex flex-between feedback-box">
+								<div class="flex">
+									<span>99</span>
+									<div class="ques-desc">
+										<p>问题</p>
+										<span>问题描述</span>
+									</div>
+								</div>
+								<img src="img/rectangle10@2x.png" alt="" class="feedback-sort">
+							</div>
+						</a>
+						<a href="messagedetail.html">
+							<div class="flex flex-between feedback-box">
+								<div class="flex">
+									<span>100</span>
+									<div class="ques-desc">
+										<p>问题</p>
+										<span>问题描述</span>
+									</div>
+								</div>
+								<img src="img/rectangle10@2x.png" alt="" class="feedback-sort">
+								
+							</div>
+						</a>
+					</section>
+					<section class="feedback-question">
+						<a href="messagedetail.html">
+							<div class="flex flex-between feedback-box">
+								<div class="flex">
+									<span>1</span>
+									<div class="ques-desc">
+										<p>问题</p>
+										<span>问题描述</span>
+									</div>
+								</div>
+								<img src="img/rectangle10@2x.png" alt="" class="feedback-sort">
+							</div>
+						</a>
+						<a href="messagedetail.html">
+							<div class="flex flex-between feedback-box">
+								<div class="flex">
+									<span>2</span>
+									<div class="ques-desc">
+										<p>问题</p>
+										<span>问题描述</span>
+									</div>
+								</div>
+								<img src="img/rectangle10@2x.png" alt="" class="feedback-sort">
+							</div>
+						</a>
+					</section>
+				</div>
+				
+				<!-- 如果没有信息，可以展示这个空页面 -->
+				<!-- <div class="searchempty">
+					<div class="item-list searchempty">
+						<img src="./img/searchempty.png" alt="">
+						<p>这里空空如也呢</p>
+					</div>
+				</div> -->
+			</div>
+			<div class="feedback-liuyan">
+				<a href="publishmessage.html">去留言</a>
+			</div>
+		</div>
+		
+		<script>
+			var tabs=document.getElementById("tab").getElementsByTagName("div");
+			var divs=document.getElementById("tabCon").getElementsByTagName("section");
+			 
+			for(let i=0;i<tabs.length;i++){
+				tabs[i].onclick=function(){change(this);}
+			}
+			function change(obj){
+				for(let i=0;i<tabs.length;i++){
+					if(tabs[i]==obj){
+						tabs[i].classList.add("active");
+						divs[i].classList.add("fdiv");
+					}else{
+						tabs[i].classList.remove("active");
+						divs[i].classList.remove("fdiv");
+					}
+				}
+			} 
+		</script>
+	</body>
+</html>

@@ -1,0 +1,454 @@
+
+<input type="hidden" class="form-control" name="id" value="{$item['id']}" />
+<div class="form-group">
+
+    <label class="col-lg control-label must">社区名称</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <input type="text" class="form-control" name="shequname" value="{$item['shequname']}" data-rule-required="true"/>
+
+        {else}
+
+        <div class="form-control-static">{$item['shequname']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label">社区logo</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ifp 'shequ.user.edit'}
+
+        {php echo tpl_form_field_image2('logo',$item['logo'],'../addons/ewei_shopv2/static/images/nopic.jpg')}
+
+        <span class="help-block">社区logo 建议尺寸 300 * 300</span>
+
+        {else}
+
+        {if empty($item['logo'])}
+
+        <img src="../addons/ewei_shopv2/static/images/nopic.jpg" onerror="this.src='../addons/ewei_shopv2/static/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+
+        {else}
+
+        <img src="{php echo tomedia($item['logo'])}" onerror="this.src='../addons/ewei_shopv2/static/images/nopic.jpg'; this.title='图片未找到.'" class="img-responsive img-thumbnail" width="150">
+
+        {/if}
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+<div class="form-group">
+
+    <label class="col-lg control-label must">社区分类</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <select class="form-control" name="cateid" required>
+
+            {loop $category $c}
+
+            <option value="{$c['id']}" {if $item['cateid']==$c['id']}selected{/if}>{$c['catename']}</option>
+
+            {/loop}
+
+        </select>
+
+
+
+        {else}
+
+        <div class="form-control-static">
+
+            {loop $category $c}
+
+            {if $item['cateid']==$c['id']}{$c['catename']}{/if}
+
+            {/loop}
+
+        </div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+
+<div class="form-group">
+
+    <label class="col-lg control-label must">联系人</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <input type="text" class="form-control" name="realname" value="{$item['realname']}" data-rule-required="true"/>
+
+        {else}
+
+        <div class="form-control-static">{$item['realname']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label must">联系电话</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <input type="tel" class="form-control" name="mobile" value="{$item['mobile']}" data-rule-required="true"/>
+
+        {else}
+
+        <div class="form-control-static">{$item['mobile']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+
+<div class="form-group">
+
+    <label class="col-lg control-label">社区简介</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <textarea name="desc1" class="form-control textarea">{$item['desc']}</textarea>
+
+        {else}
+
+        <div class="form-control-static">{$item['desc']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+
+<div class="form-group">
+
+    <label class="col-lg control-label">社区地址</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ife 'shequ.user' $item}
+
+        <input type="text" name="address" class="form-control" value="{$item['address']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$item['address']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+
+<div class="form-group">
+
+    <label class="col-lg control-label">物业电话</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ife 'shequ.user' $item}
+
+        <input type="text" name="tel" class="form-control" value="{$item['tel']}" />
+
+        {else}
+
+        <div class='form-control-static'>{$item['tel']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+
+
+<div class="form-group">
+
+    <label class="col-lg control-label">社区位置</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ife 'shequ.user' $item}
+
+        {php echo tpl_form_field_position('map',array('lng'=>$item['lng'],'lat'=>$item['lat']))}
+
+        {else}
+
+        <div class='form-control-static'>lng={$item['lng']},lat={$item['lat']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label">是否推荐</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ife 'shequ.user' $item}
+
+        <label class="radio-inline">
+
+            <input type="radio" name='isrecommand' value="1" {if $item['isrecommand']==1}checked{/if} /> 是
+
+        </label>
+
+        <label class="radio-inline">
+
+            <input type="radio" name='isrecommand' value="0" {if empty($item['isrecommand'])}checked{/if} /> 否
+
+        </label>
+
+        {else}
+
+        <div class='form-control-static'>{if empty($item['isrecommand'])}否{else}是{/if}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group-title">社区备注</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label">社区备注</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        <textarea name="remark" class="form-control textarea">{$item['remark']}</textarea>
+
+        {else}
+
+        <div class="form-control-static">{$item['remark']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group-title">社区服务</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label">开通服务</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+		<div class="input-group">
+                        <label class="checkbox-inline">
+				<input type="checkbox" name="selectAll" id="selectAll"/>全选
+			</label>
+			{loop $groups $g}
+			<label class="checkbox-inline">
+				<input type="checkbox" name="service[]" value="{$g['id']}" {if in_array($g['id'],$item['service'])}checked="true"{/if} /> {$g['groupname']}
+			</label>
+			{/loop}
+		</div>
+		<!-- <span class='help-block'>尽量填写完整，有助于于商品销售的数据分析</span> -->
+	
+
+        {else}
+
+        <div class="form-control-static">
+
+            {if $item['status']==0}
+
+            待入驻
+
+            {elseif $item['stauts']==1}
+
+            允许入驻
+
+            {elseif $item['stauts']==2}
+
+            暂停中
+
+            {/if}
+
+        </div>
+
+        {/if}
+
+    </div>
+
+</div>
+<script>
+    $('input[name="selectAll"]').on("click",function(){
+        if($(this).is(':checked')){
+            $('input[name="service[]"]').each(function(){
+                $(this).prop("checked",true);
+            });
+        }else{
+            $('input[name="service[]"]').each(function(){
+                $(this).prop("checked",false);
+            });
+        }
+    });
+</script>
+
+<div class="form-group-title">入驻状态</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label">状态</label>
+
+    <div class="col-sm-8">
+
+        {ife 'shequ.user' $item}
+
+        {if !empty($item) && $item['status']<=0}
+
+        <label class="radio-inline">
+
+            <input type="radio" name="status" value="0" {if $item['status']==0}checked{/if} /> 待入驻
+
+        </label>
+
+        {/if}
+
+
+
+        <label class="radio-inline">
+
+            <input type="radio" name="status" value="1" {if $item['status']==1}checked{/if} />允许入驻
+
+        </label>
+
+        <label class="radio-inline">
+
+            <input type="radio" name="status" value="2" {if $item['status']==2}checked{/if}/> 暂停中
+
+        </label>
+
+        {else}
+
+        <div class="form-control-static">
+
+            {if $item['status']==0}
+
+            待入驻
+
+            {elseif $item['stauts']==1}
+
+            允许入驻
+
+            {elseif $item['stauts']==2}
+
+            暂停中
+
+            {/if}
+
+        </div>
+
+        {/if}
+
+    </div>
+
+</div>
+
+<div class="form-group-title">社区结算</div>
+
+<div class="form-group">
+
+    <label class="col-lg control-label">持卡人姓名：</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ife 'shequ.user' $item}
+
+            <input type="text" class="form-control" name="jiesuan_cardname" value="{$item['jiesuan_cardname']}" />
+
+        {else}
+
+        <div class="form-control-static">{$item['jiesuan_cardname']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+<div class="form-group">
+
+    <label class="col-lg control-label">开户行：</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ife 'shequ.user' $item}
+            <input type="text" class="form-control" name="jiesuan_cardbrandname" value="{$item['jiesuan_cardbrandname']}" />
+
+        {else}
+
+        <div class="form-control-static">{$item['jiesuan_cardbrandname']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+<div class="form-group">
+
+    <label class="col-lg control-label">银行卡号：</label>
+
+    <div class="col-sm-9 col-xs-12">
+
+        {ife 'shequ.user' $item}
+
+            <input type="text" class="form-control" name="jiesuan_cardnum" value="{$item['jiesuan_cardnum']}" />
+
+        {else}
+
+        <div class="form-control-static">{$item['jiesuan_cardnum']}</div>
+
+        {/if}
+
+    </div>
+
+</div>
+
